@@ -1,0 +1,68 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "soup_can" (
+        prepend references = @../../objects/objects/hot3d/soup_can.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.5774247757345438, -0.3118273824825883, 0.0010645209031063321, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "obstacle_01_utilityjug_a01" (
+        prepend references = @../../objects/objects/vomp/utilityjug_a01/utilityjug_a01.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.5225349625274539, -0.07703526571393013, 0.001000004004687082, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+
+    def "obstacle_02_cubebox_a02" (
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.6385349431559443, 0.002964778989553456, 0.0010000040046871006, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+
+    def "obstacle_03_milk_carton" (
+        prepend references = @../../objects/objects/hope/milk_carton.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.6385349312350153, 0.002964796870946888, 0.20489206647798425, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.5800001043081283, 0.31999992549419404, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+}
+

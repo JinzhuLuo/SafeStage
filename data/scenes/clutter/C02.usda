@@ -1,0 +1,110 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "yogurt_cup" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/yogurt_cup.usd@</yogurt_cup>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:stack_layout = ( (0.9, 0, 0, 0), (0, 0.9, 0, 0), (0, 0, 0.9, 0), (0.375, 0, 0.025154652375727903, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "granola_bars" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/granola_bars.usd@</granola_bars>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:clutter_pose = ( (1.161638072231689, 0, 0, 0), (0, 3.626020598246657e-16, 0.8165072507550694, 0), (0, -0.7257736699962452, 3.223082556386126e-16, 0), (0.375, -0.0985619277060032, 0.06850000000000003, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (1.161638072231689, 0, 0, 0), (0, 3.626020598246657e-16, 0.8165072507550694, 0), (0, -0.7257736699962452, 3.223082556386126e-16, 0), (0, 3.469446951953614e-18, 0.06850000000000003, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+    }
+
+    def "sugar_box" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/sugar_box.usd@</sugar_box>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:clutter_pose = ( (1.11012435329624, 0, 0, 0), (0, 0.8506295253043118, 0, 0), (0, 0, 0.8522000747195667, 0), (0.375, 0.09356192770600319, 0.076, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (1.11012435329624, 0, 0, 0), (0, 0.8506295253043118, 0, 0), (0, 0, 0.8522000747195667, 0), (0, 0, 0.076, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+    }
+
+    def "spam_can" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/spam_can.usd@</spam_can>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:clutter_pose = ( (0.8323296439256753, 0, 0, 0), (0, 0.9117735147919449, 0, 0), (0, 0, 0.8369501623436784, 0), (0.4680828992277384, 0, 0.036000000000000004, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (0.8323296439256753, 0, 0, 0), (0, 0.9117735147919449, 0, 0), (0, 0, 0.8369501623436784, 0), (0, 0, 0.036000000000000004, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+    }
+
+    def "jello" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/jello.usd@</jello>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:clutter_pose = ( (0.8281572867431455, 0, 0, 0), (0, 0.8604575425441137, 0, 0), (0, 0, 0.8964143353918901, 0), (0.2824171007722616, -0.036, 0.014499999999999999, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (0.8281572867431455, 0, 0, 0), (0, 0.8604575425441137, 0, 0), (0, 0, 0.8964143353918901, 0), (0, 0, 0.014499999999999999, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+    }
+
+    def "plate_large" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6800001043081284, 0.289999925494194, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "bin_b03" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/bin_b03/bin_b03.usd@</bin_b03>
+    )
+    {
+        float physics:mass = 0.18
+        custom int physxRigidBody:solverPositionIterationCount = 16
+        custom int physxRigidBody:solverVelocityIterationCount = 4
+        matrix4d xformOp:transform:stack_layout = ( (0.9728749139282918, 0, 0, 0), (0, 1.319883098903898, 0, 0), (0, 0, 0.416579796524855, 0), (0.68, -0.28499997049831377, 0.001000004004687082, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+}
+

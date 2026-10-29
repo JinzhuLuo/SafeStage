@@ -1,0 +1,101 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "tuna_can" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/tuna_can.usd@</tuna_can>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.9121740084785532, 0, 0, 0), (0, 0.9110659919539922, 0, 0), (0, 0, 1.0145921745006776, 0), (0.365, 0, 0.018000004004687084, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.9121707766041008, -0.0002067343681493306, 0.002419362017420452, 0), (0.00020322345493063582, 0.9110651400212461, 0.0012292408130593529, 0), (-0.002691313779235108, -0.0013683167037390773, 1.0145876823099267, 0), (0.3649531900882721, -0.00003103868220932782, 0.01984209381043911, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "jello" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/jello.usd@</jello>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6349032275215538, 0.22280779428915665, -0.23493058905024103, 0), (0.3337616491511023, 0.11169263112324213, 1.0079246725816287, 0), (0.49648168797127296, -1.4219544676510958, -0.006830581003222226, 0), (0.3655459089171129, -0.0013554275969718792, 0.08231354856316439, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.6322930296702075, 0.16928192693627103, -0.28193432368849086, 0), (0.413021969368228, 0.09004916316917677, 0.9803511286198069, 0), (0.3787620654519243, -1.457523457082476, -0.025693123407237502, 0), (0.36023497581481934, 0.0004228034522384405, 0.07946999371051788, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "dry_erase_marker" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/dry_erase_marker.usd@</dry_erase_marker>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.649519052838329, 0, -0.37499999999999994, 0), (0, 0.75, 0, 0), (0.37499999999999994, 0, 0.649519052838329, 0), (0.36510758674532856, 0, 0.13673067857511892, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (-0.07897489539250446, -0.017311483944474126, -0.7456294634116125, 0), (0.19838415647769336, 0.7222992737549694, -0.0377820883848381, 0), (0.7189622456308002, -0.20120654131445592, -0.0714789144471677, 0), (0.3640686869621277, 0.005168111529201269, 0.13139890134334564, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6700001043081284, 0.27999992549419406, -0.001758136438205827, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.9999999981399926, 0.00005907889017397598, -0.000015155841966335497, 0), (-0.00005907908170921668, 0.9999999981749769, -0.000012637580553283787, 0), (0.000015155095324442887, 0.000012638475923002825, 0.999999999805296, 0), (0.6700003743171692, 0.2799987494945526, 0.00024005956947803497, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "smartphone" (
+        prepend references = @../../objects/objects/hot3d/smartphone.usd@</smartphone>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.33506893277168276, -0.29, 0.006650440976023701, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.9999996161961112, -0.00012914841728022892, 0.0008665611869157887, 0), (0.00011925126515025458, 0.9999348792803372, 0.011411528089632248, 0), (-0.0008679785366672106, -0.01141142037132187, 0.9999345109025547, 0), (0.33506613969802856, -0.29006269574165344, 0.008198536932468414, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "coffee_can" (
+        prepend references = @../../objects/objects/ycb/coffee_can.usd@</coffee_can>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (0.85, 0, 0, 0), (0, 0.85, 0, 0), (0, 0, 0.85, 0), (0.335, 0.29, 0.06056119997426868, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.8499913959717112, 0.0036213148303118636, -0.0012299806325991604, 0), (-0.003620937865313318, 0.8499922468080352, 0.00026301075783209096, 0), (0.0012310899367413836, -0.00025776846773516973, 0.8499990693953254, 0), (0.33492568135261536, 0.2898990511894226, 0.06239611655473709, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "bin_b02" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/bin_b02/bin_b02.usd@</bin_b02>
+    )
+    {
+        float physics:mass = 0.18
+        matrix4d xformOp:transform:stack_layout = ( (1.087925216784074, 0, 0, 0), (0, 1.5504401536373351, 0, 0), (0, 0, 0.6299793382805057, 0), (0.6700000040528373, -0.26999999711208017, 0.001000004004687082, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+}
+

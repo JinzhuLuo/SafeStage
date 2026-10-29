@@ -1,0 +1,160 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "apple_01" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/objaverse/apple_01.usd@</apple_01>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.9551210975818041, 0, 0, 0), (0, 0.9859789502870243, 0, 0), (0, 0, 0.9603451274525232, 0), (0.5485880444226457, -0.31955004396277153, 0.019075035352732785, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.8766000177107559, 0, 0, 0), (0, 0.8765997018360173, 0, 0), (0, 0, 0.6973151657913028, 0), (0.5500000914365072, 0.31999993468823273, -0.0009232891555244842, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_base1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.7684242332349965, 0, 0), (0, 0, 0.6616833468726291, 0), (0.33750000995161905, -0.13000001717562004, 0.0010000040046870974, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_base2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 1.0886009970829118, 0, 0), (0, 0, 0.6616833468726291, 0), (0.33750000995161905, 0.0399999756678716, 0.0010000040046870974, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_ketchup_bottle1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/ketchup_bottle.usd@</ketchup_bottle>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.7985529405761873, 0, 0, 0), (0, 1.2090435990916164, 0, 0), (0, 0, 1.1103050717138374, 0), (0.3375, -0.13, 0.18950000400468708, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_mustard_bottle2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/mustard_bottle.usd@</mustard_bottle>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.2352236871480615, 0, 0, 0), (0, 0.9979549738447477, 0, 0), (0, 0, 0.9684448971729389, 0), (0.3375, 0.0005000000000000004, 0.18450000400468708, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_mayonnaise_bottle3" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/mayonnaise_bottle.usd@</mayonnaise_bottle>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.4623090117961626, 0, 0, 0), (0, 1.0071055249001455, 0, 0), (0, 0, 0.8789580197070958, 0), (0.3375, 0.0795, 0.17200000400468707, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.7684242332349965, 0, 0), (0, 0, 0.6616833468726291, 0), (0.762500009951619, -0.13000001717562004, 0.0010000040046870974, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "right_base2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 1.0886009970829118, 0, 0), (0, 0, 0.6616833468726291, 0), (0.762500009951619, 0.0399999756678716, 0.0010000040046870974, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "right_bbq_sauce_bottle1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hot3d/bbq_sauce_bottle.usd@</bbq_sauce_bottle>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.7817497289354105, 0, 0, 0), (0, 1.2118801591051127, 0, 0), (0, 0, 1.1362040146307235, 0), (0.7646953663538502, -0.11935106051987708, 0.1070703172077825, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_parmesan_cheese_canister2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/parmesan_cheese_canister.usd@</parmesan_cheese_canister>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.9078145133062595, 0, 0, 0), (0, 0.9139894113598184, 0, 0), (0, 0, 1.5068674949516356, 0), (0.7625000000000001, 0.0005000000000000004, 0.18450000400468708, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_coffee_can3" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/coffee_can.usd@</coffee_can>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.5865733439959233, 0, 0, 0), (0, 0.634480621151792, 0, 0), (0, 0, 0.9276173706823589, 0), (0.7625000000000001, 0.0795, 0.17200000400468707, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+}
+

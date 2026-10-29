@@ -1,0 +1,86 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "red_block" (
+        prepend references = @../../objects/objects/basic/red_block.usd@</red_block>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.1701027373332067, 0, 0, 0), (0, 1.1701027373332067, 0, 0), (0, 0, 1.1701027373332067, 0), (0.365, 0, 0.028500004004687086, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+
+    def "blue_block" (
+        prepend references = @../../objects/objects/basic/blue_block.usd@</blue_block>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.1701027373332067, 0, 0, 0), (0, 1.1701027373332067, 0, 0), (0, 0, 1.1701027373332067, 0), (0.365, 0, 0.0845000040046871, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+
+    def "green_block" (
+        prepend references = @../../objects/objects/basic/green_block.usd@</green_block>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.1701027373332067, 0, 0, 0), (0, 1.1701027373332067, 0, 0), (0, 0, 1.1701027373332067, 0), (0.365, 0, 0.1405000040046871, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6700001043081284, 0.27999992549419406, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "whitepackerbottle_a01" (
+        prepend references = @../../objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd@</whitepackerbottle_a01>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.33564487475901844, -0.2900000027939677, 0.0010000034086406475, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "yogurt_cup" (
+        prepend references = @../../objects/objects/hope/yogurt_cup.usd@</yogurt_cup>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.335, 0.29, 0.02783850219473244, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "bin_a03" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/bin_a03/bin_a03.usd@</bin_a03>
+    )
+    {
+        float physics:mass = 0.18
+        matrix4d xformOp:transform:stack_layout = ( (1.177221503133256, 0, 0, 0), (0, 1.434820418442, 0, 0), (0, 0, 0.6269256078359187, 0), (0.6700000043854919, -0.2700000026725613, 0.0010000047520406284, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+}
+

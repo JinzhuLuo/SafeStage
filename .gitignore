@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv*/
+build/
+dist/
+artifacts/
+*.log
+# Optional third-party assets are distributed under their respective licenses.
+data/objects/
+data/robots/
+data/backgrounds/
+# Never include learned model weights, caches, virtual environments, or runtimes.
+runtime/
+models/
+checkpoints/
+.cache/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+.env
+.env.*
+

@@ -1,0 +1,116 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "mug" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/mug.usd@</mug>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.8463997962661232, 0, 0, 0), (0, 0.7520816566024793, 0, 0), (0, 0, 0.9829941621374589, 0), (0.55, -0.32, 0.041000004004687084, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.8766000177107559, 0, 0, 0), (0, 0.8765997018360173, 0, 0), (0, 0, 0.6973151657913028, 0), (0.5500000914365072, 0.31999993468823273, -0.0009232891555244842, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_plasticjerrican_a031" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/plasticjerrican_a03/plasticjerrican_a03.usd@</plasticjerrican_a03>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.4436371438716843, 0, 0, 0), (0, 0.4474818514398584, 0, 0), (0, 0, 0.7364671394606208, 0), (0.379, -0.1299999699940036, 0.001000002101346669, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_base1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.7684242332349965, 0, 0), (0, 0, 0.6616833468726291, 0), (0.37900000995161903, 0.024999982824379954, 0.0010000040046870974, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_coffee_pot1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hot3d/coffee_pot.usd@</coffee_pot>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6862603113993387, 0, 0, 0), (0, 1.259955084025537, 0, 0), (0, 0, 1.1930074111647604, 0), (0.37420673929055065, 0.024626151612074827, 0.10695139226293818, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_closedheadpail_a011" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/closedheadpail_a01/closedheadpail_a01.usd@</closedheadpail_a01>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.42615276969516913, 0, 0, 0), (0, 0.4745792092119173, 0, 0), (0, 0, 0.7636656675604231, 0), (0.7210000000000001, -0.13, 0.001000004004687082, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "right_base1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.7684242332349965, 0, 0), (0, 0, 0.6616833468726291, 0), (0.7210000099516191, 0.024999982824379954, 0.0010000040046870974, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "right_pitcher1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/pitcher.usd@</pitcher>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.671154480254513, 0, 0, 0), (0, 0.7391085208737614, 0, 0), (0, 0, 0.7418397517210122, 0), (0.7210000000000001, 0.025, 0.1970000040046871, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+}
+

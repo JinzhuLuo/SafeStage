@@ -1,0 +1,60 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "orange_01" (
+        prepend references = @../../objects/objects/fruits_veggies/orange1.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.9536389705823406, 0.09698466769983026, 0.2848976799094849, 0), (0.04867099186220496, 0.8844897820327637, -0.4640139653402505, 0), (-0.2969913270413852, 0.4563680529033419, 0.8387635852559465, 0), (0.5906405184374218, -0.3269781164507094, 0.005706232271244136, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "obstacle_01_wood_block" (
+        prepend references = @../../objects/objects/ycb/wood_block.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.58, -0.025, 0.08335600395128133, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "obstacle_02_coffee_can" (
+        prepend references = @../../objects/objects/ycb/coffee_can.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.58, -0.025, 0.2225696001045406, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.5800001043081283, 0.31999992549419404, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+}
+

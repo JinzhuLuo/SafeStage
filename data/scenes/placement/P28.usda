@@ -1,0 +1,67 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "target" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/raisin_box.usd@</raisin_box>
+    )
+    {
+        float physics:mass = 0.18312313
+        bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.9550211189915045e-16, 0, 0.880463238299159, 0), (0, 0.6404658150866042, 0, 0), (-1.2989606952973698, 0, 2.8842721440044845e-16, 0), (0.365, -0.245, 0.018500004004687095, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "support_left" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/basic/blue_block.usd@</blue_block>
+    )
+    {
+        float physics:mass = 0.35
+        custom bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.4892216656968085, 0, 0, 0), (0, 1.7019676179392096, 0, 0), (0, 0, 1.063729761212006, 0), (0.5800000000000001, 0.185, 0.026000004004687084, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+
+    def "support_right" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/basic/red_block.usd@</red_block>
+    )
+    {
+        float physics:mass = 0.35
+        custom bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (1.4892216656968085, 0, 0, 0), (0, 1.7019676179392096, 0, 0), (0, 0, 1.063729761212006, 0), (0.73, 0.185, 0.026000004004687084, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+}
+

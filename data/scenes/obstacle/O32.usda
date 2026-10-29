@@ -1,0 +1,1090 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "blue_block" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/basic/blue_block.usd@</blue_block>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.1701027373332067, 0, 0, 0), (0, 1.1701027373332067, 0, 0), (0, 0, 1.1701027373332067, 0), (0.56, -0.34, 0.028500000000000004, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateZYX", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6952344968050823, 0, 0, 0), (0, 0.695234246283738, 0, 0), (0, 0, 0.6973151657913028, 0), (0.5600000725186092, 0.33999994820101215, -0.0009232931602115662, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "left_base1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.4898750099516192, -0.1800000078721592, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base1/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.490116130486996e-8, 2.235174181852706e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_milk_carton1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/milk_carton.usd@</milk_carton>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.051019492354689, 0, 0, 0), (0, 0.6236608278424732, 0, 0), (0, 0, 0.9193213834599273, 0), (0.48987500000000017, -0.18, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_base2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.507500009951619, -0.12000000787215918, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base2/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161138336505e-8, 2.2351741790771484e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_orange_juice_carton2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/orange_juice_carton.usd@</orange_juice_carton>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.0579626274267409, 0, 0, 0), (0, 0.6286373859632853, 0, 0), (0, 0, 0.9091721475583677, 0), (0.5075000000000001, -0.12, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_base3" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.47337500995161913, -0.060000007872159186, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base3/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161193847656e-8, 2.235174181852706e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_sugar_box3" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/ycb/sugar_box.usd@</sugar_box>
+    )
+    {
+        float physics:mass = 0.363825
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.5541740946147358, 0, 0, 0), (0, 0.4784791079836754, 0, 0), (0, 0, 0.994233420506161, 0), (0.4733750000000001, -0.06, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+        over "obj_000003_Mesh"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_sugar_box3/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.024772, 0.047023997, 0.0880075)
+            double3 xformOp:translate = (0, 0, 1.3877787807814457e-17)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_base4" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.4075000099516191, -7.87215918840456e-9, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base4/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161193847656e-8, 2.2351741790771484e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_granola_bars4" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/granola_bars.usd@</granola_bars>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.9876918124853347, 0, 0, 0), (0, 0.27216908358502306, 0, 0), (0, 0, 1.4112265805482538, 0), (0.4075000000000001, 0, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_base5" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.3416250099516191, 0.05999999212784081, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base5/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.490116116609208e-8, 2.235174176301591e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_popcorn_box5" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/popcorn_box.usd@</popcorn_box>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (2.0129456786420343, 0, 0, 0), (0, 0.3557537413706213, 0, 0), (0, 0, 2.0593807505554373, 0), (0.34162500000000007, 0.06, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_base6" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.30750000995161914, 0.11999999212784081, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base6/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161221603232e-8, 2.2351741790771484e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_raisin_box6" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/raisin_box.usd@</raisin_box>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.9370191242581503, 0, 0, 0), (0, 0.5240174850708579, 0, 0), (0, 0, 1.420738260481498, 0), (0.3075000000000001, 0.12, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "left_base7" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.325125009951619, 0.1799999921278408, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/left_base7/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161193847656e-8, 2.235174176301591e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "left_milk_carton7" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/milk_carton.usd@</milk_carton>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.051019492354689, 0, 0, 0), (0, 0.6236608278424732, 0, 0), (0, 0, 0.9193213834599273, 0), (0.325125, 0.18, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.7948750099516191, -0.1800000078721592, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base1/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901160971803051e-8, 2.235174181852706e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_sugar_box1" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/ycb/sugar_box.usd@</sugar_box>
+    )
+    {
+        float physics:mass = 0.363825
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.5541740946147358, 0, 0, 0), (0, 0.4784791079836754, 0, 0), (0, 0, 0.994233420506161, 0), (0.7948750000000001, -0.18, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+        over "obj_000003_Mesh"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_sugar_box1/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.024772, 0.047023997, 0.0880075)
+            double3 xformOp:translate = (-8.326672684688674e-17, 0, 1.3877787807814457e-17)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_base2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.812500009951619, -0.12000000787215918, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base2/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901160971803051e-8, 2.2351741790771484e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_granola_bars2" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/granola_bars.usd@</granola_bars>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.9876918124853347, 0, 0, 0), (0, 0.27216908358502306, 0, 0), (0, 0, 1.4112265805482538, 0), (0.8125, -0.12, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base3" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.778375009951619, -0.060000007872159186, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base3/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901160971803051e-8, 2.235174181852706e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_popcorn_box3" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/popcorn_box.usd@</popcorn_box>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (2.0129456786420343, 0, 0, 0), (0, 0.3557537413706213, 0, 0), (0, 0, 2.0593807505554373, 0), (0.778375, -0.06, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base4" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.712500009951619, -7.87215918840456e-9, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base4/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161027314203e-8, 2.2351741790771484e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_raisin_box4" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/raisin_box.usd@</raisin_box>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.9370191242581503, 0, 0, 0), (0, 0.5240174850708579, 0, 0), (0, 0, 1.420738260481498, 0), (0.7125, 0, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base5" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.646625009951619, 0.05999999212784081, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base5/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161193847656e-8, 2.235174176301591e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_milk_carton5" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/milk_carton.usd@</milk_carton>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.051019492354689, 0, 0, 0), (0, 0.6236608278424732, 0, 0), (0, 0, 0.9193213834599273, 0), (0.646625, 0.06, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base6" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.612500009951619, 0.11999999212784081, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base6/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161082825354e-8, 2.2351741790771484e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_milk_carton6" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/milk_carton.usd@</milk_carton>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.051019492354689, 0, 0, 0), (0, 0.6236608278424732, 0, 0), (0, 0, 0.9193213834599273, 0), (0.6125, 0.12, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "right_base7" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI", "PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@</cubebox_a02>
+    )
+    {
+        float physics:mass = 0.294525
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (0.6678418473541061, 0, 0, 0), (0, 0.35219444023270674, 0, 0), (0, 0, 0.5356484236587951, 0), (0.630125009951619, 0.1799999921278408, 0.0010000000000000126, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+
+        over "SM_CubeBox_A02_Decal_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Scotch_01"
+        {
+            bool physics:collisionEnabled = 0
+        }
+
+        over "SM_CubeBox_A02_Body_01"
+        {
+            over "M_CubeBox_A01_Body"
+            {
+                bool physics:collisionEnabled = 0
+            }
+
+            over "M_CubeBox_A01_Details"
+            {
+                bool physics:collisionEnabled = 0
+            }
+        }
+
+        def Cube "filled_box_collision" (
+            prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"]
+        )
+        {
+            rel material:binding:physics = </world/right_base7/filled_box_material>
+            custom float physxCollision:contactOffset = 0.002
+            custom float physxCollision:restOffset = 0
+            double size = 2
+            token visibility = "invisible"
+            float3 xformOp:scale = (0.078611426, 0.07808187, 0.07934309)
+            double3 xformOp:translate = (-1.4901161138336505e-8, 2.235174176301591e-8, 0.07934308797121047)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Material "filled_box_material" (
+            prepend apiSchemas = ["PhysicsMaterialAPI"]
+        )
+        {
+            float physics:density = 600
+            float physics:dynamicFriction = 0.5
+            float physics:restitution = 0
+            float physics:staticFriction = 0.6
+        }
+    }
+
+    def "right_orange_juice_carton7" (
+        prepend apiSchemas = ["PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/orange_juice_carton.usd@</orange_juice_carton>
+    )
+    {
+        custom int physxRigidBody:solverPositionIterationCount = 128
+        custom int physxRigidBody:solverVelocityIterationCount = 32
+        matrix4d xformOp:transform:stack_layout = ( (1.0579626274267409, 0, 0, 0), (0, 0.6286373859632853, 0, 0), (0, 0, 0.9091721475583677, 0), (0.630125, 0.18, 0.1745, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+}
+

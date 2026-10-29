@@ -1,0 +1,4544 @@
+{
+  "asset_root": "data",
+  "assets": [
+    {
+      "direct_scene_dependency": true,
+      "path": "data/backgrounds/home_office.exr",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "bbe1f503a6a302ad35ceb24c0f38f5b89c60d256781b0606b7f2215a9d06dd16",
+      "size_bytes": 84840871,
+      "source_family": "runtime_assets",
+      "source_path": "backgrounds/default/home_office.exr",
+      "source_sha256": "bbe1f503a6a302ad35ceb24c0f38f5b89c60d256781b0606b7f2215a9d06dd16"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/fixtures/Props/instaceable_meshes.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b7827de44e5051d8d7803507b9362dbf8521181996449a88934b59ceb0d54db6",
+      "size_bytes": 17794512,
+      "source_family": "scene_assets",
+      "source_path": "fixtures/Props/instaceable_meshes.usd",
+      "source_sha256": "b7827de44e5051d8d7803507b9362dbf8521181996449a88934b59ceb0d54db6"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/fixtures/franka_table.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "cdc54b3db61a21a06e124b0fbbe0acdf61e98938c8fefa478ce4b3d143b33825",
+      "size_bytes": 3567,
+      "source_family": "scene_assets",
+      "source_path": "fixtures/franka_table.usd",
+      "source_sha256": "f5a00da4c05db6dd0441f8c76a886a898435e61890dd1f445ff7e8f79e1e2495"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/fixtures/table_oak.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b285aa7360e98f784b9c36cfb331eadf9ef2c96e5c3079127c8ddbd30e8e001f",
+      "size_bytes": 8241,
+      "source_family": "scene_assets",
+      "source_path": "fixtures/table_oak.usd",
+      "source_sha256": "b285aa7360e98f784b9c36cfb331eadf9ef2c96e5c3079127c8ddbd30e8e001f"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/basic/blue_block.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "cdde4e88486b6ed22a00d60060233d3aaf56948bd984301e8eb494254ea05dbc",
+      "size_bytes": 19688,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/blue_block.usd",
+      "source_sha256": "dd54b933b3b7f082319a2232df8ad43a6a82ff7343e110933adccc20f3b44eaf"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/basic/green_block.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "a89ccf47605a4e3b1509b7c81511e0fd944f117ddb8fca94842aa7a847ae58f6",
+      "size_bytes": 20287,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/green_block.usd",
+      "source_sha256": "440837802ccaaa739c211fc9d6c1820d136bce7cfbc8d9bedcec0740e6b098fa"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/basic/red_block.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9bd4d22d20b1bd25f8df9c8c55cfd092fcb842baa65582b742316c6daa49a677",
+      "size_bytes": 13810,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/red_block.usd",
+      "source_sha256": "c53586c8d4277f03f9be12510f3900130e71a2a00bab915d202a9d73efb785c2"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_blue1_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b28c6f7c09a5757ff23bd9aef45af0c45e5e78d4807155acab0e6b6091f63d1c",
+      "size_bytes": 12448359,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_blue1_BaseColor.png",
+      "source_sha256": "b28c6f7c09a5757ff23bd9aef45af0c45e5e78d4807155acab0e6b6091f63d1c"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_blue1_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "7d02bfc7202211add880e18f885d8dc626b8a8b6010e88b3432e66a184a906e1",
+      "size_bytes": 25833472,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_blue1_Normal.png",
+      "source_sha256": "7d02bfc7202211add880e18f885d8dc626b8a8b6010e88b3432e66a184a906e1"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_blue1_Roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "11031698c5a67457636b8bcf511b34f2afa6ba0264e9aac95c7d58a656f875bd",
+      "size_bytes": 6144078,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_blue1_Roughness.png",
+      "source_sha256": "11031698c5a67457636b8bcf511b34f2afa6ba0264e9aac95c7d58a656f875bd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_green1_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "707144c5d5197a4ab283a39f73b7ace9f4782bd28b1499add34b7cb09ce8e684",
+      "size_bytes": 15891175,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_green1_BaseColor.png",
+      "source_sha256": "707144c5d5197a4ab283a39f73b7ace9f4782bd28b1499add34b7cb09ce8e684"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_green1_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "1cf80979b7b84543562b115226764d0870a01ad25556ee5f9dadf5f7c2da5ecb",
+      "size_bytes": 25129596,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_green1_Normal.png",
+      "source_sha256": "1cf80979b7b84543562b115226764d0870a01ad25556ee5f9dadf5f7c2da5ecb"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_green1_Roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "5a272ce91be3c8ea7cf4a81c16ead4553d2085bd354d6d8fba4c4e82b80caa54",
+      "size_bytes": 6387500,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_green1_Roughness.png",
+      "source_sha256": "5a272ce91be3c8ea7cf4a81c16ead4553d2085bd354d6d8fba4c4e82b80caa54"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_red1_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2311ac2a340ab203f0912cc9d19d3f70002365564d38ede7c7fbe72e7d3acbf9",
+      "size_bytes": 12933937,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_red1_BaseColor.png",
+      "source_sha256": "2311ac2a340ab203f0912cc9d19d3f70002365564d38ede7c7fbe72e7d3acbf9"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_red1_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "af51fafd4fa62b72b2f6e7603d3586e9d55f949ace078b30c5c962dfa2ce1557",
+      "size_bytes": 25497975,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_red1_Normal.png",
+      "source_sha256": "af51fafd4fa62b72b2f6e7603d3586e9d55f949ace078b30c5c962dfa2ce1557"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_red1_Roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "f88872f1a3461e50b6b1c0229642235f94ba00a91aff5314188e5e527ae56bbf",
+      "size_bytes": 5461010,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_red1_Roughness.png",
+      "source_sha256": "f88872f1a3461e50b6b1c0229642235f94ba00a91aff5314188e5e527ae56bbf"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_yellow_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "e60f34b7ef900b54e44f1caee4140bd7d43b841c2a4d8db758a8ac3609b254c0",
+      "size_bytes": 15293130,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_yellow_BaseColor.png",
+      "source_sha256": "e60f34b7ef900b54e44f1caee4140bd7d43b841c2a4d8db758a8ac3609b254c0"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_yellow_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "3913370a9b1988a696fb54ca358d6d118f50ac5f77fdb671326ce0c26f5e887d",
+      "size_bytes": 26122875,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_yellow_Normal.png",
+      "source_sha256": "3913370a9b1988a696fb54ca358d6d118f50ac5f77fdb671326ce0c26f5e887d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/basic/textures/basic_block_yellow_Roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "31d20e606f03e915b333968b3d6834a6a366f21250fea948445c51c617305ecf",
+      "size_bytes": 5175316,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/textures/basic_block_yellow_Roughness.png",
+      "source_sha256": "31d20e606f03e915b333968b3d6834a6a366f21250fea948445c51c617305ecf"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/basic/yellow_block.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "706ee83896d30cb5bf803ed2219f7849d0e1ee59f7764b83d9512bf7137e491b",
+      "size_bytes": 20098,
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/yellow_block.usd",
+      "source_sha256": "878af18396b29d9d430dc4495859624e0b6d502aea233feb0a742126b20161f9"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/fruits_veggies/avocado.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "6a9890fe4f9111e298f1daa6960ad1ce3ff8cf2cf36cb37a7a4fc07ac07f79d0",
+      "size_bytes": 446211,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/avocado.usd",
+      "source_sha256": "d5e8c00bc1db4d2d684f2553156e23fde11a4f1741d96a51c7975ca3e46d835b"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/fruits_veggies/lemon2.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2c7be861fb8ac53d9142f456ceb518dcb96f8a82ab23242edd5c8ae9548c9303",
+      "size_bytes": 65043,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/lemon2.usd",
+      "source_sha256": "52bc2028b5ed67cfdff0f9922e11b2c120ffcb20ff2cf26fce96c5a22d5a4b2f"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/fruits_veggies/lime.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "cd2e2ae7a2e40d65020c291e9a9685a3c0557d024864e99352cfe7b89e8bbf72",
+      "size_bytes": 466146,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/lime.usd",
+      "source_sha256": "c6b8f9a89c08da2063e17cfe1053ad0f268a699f644666d2bc48ab98da0087de"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/materials/SimPBR.mdl",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "81b251433742e4e56d0b3661cc06b54e2e6390733f6d15c3f424056b76efce79",
+      "size_bytes": 22264,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/materials/SimPBR.mdl",
+      "source_sha256": "a6a4fb1209f0bd2d7981f8887095843b63309974a1de65ce801fb664c9182ace"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/materials/SimPBR_Model.mdl",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4f49ba00168ff04fae1308b71dc8f9af95cb8aa58bcc0f61aec794287a61a795",
+      "size_bytes": 8702,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/materials/SimPBR_Model.mdl",
+      "source_sha256": "7fdf2cc3f5abad475e691b2603a515babe70774c6c9d128e5df33ede2c5bd561"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/materials/baking_annotations.mdl",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d0170e0f0b1e8bdd1517b87b14591b5ad72298d3333dff7eef280b77d76094ab",
+      "size_bytes": 1360,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/materials/baking_annotations.mdl",
+      "source_sha256": "e376c50d709743f917bf289f07c5badadd0141c9e76665136d1316b53cd64ea6"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/fruits_veggies/orange1.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4265648976b0ab21b372befbed026778f18f91bb22170666e25a3ee871fe107d",
+      "size_bytes": 1015072,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/orange1.usd",
+      "source_sha256": "f3a8c7fc09b6d3d44ec88654fcfd3952e7baff711763b23fbedebc2e085679e3"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/fruits_veggies/orange2.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "f5a774f39316ee9286dcd78ed1fdcbacdc7629354223db5eabf65ccf954edf89",
+      "size_bytes": 790322,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/orange2.usd",
+      "source_sha256": "c59ac990c1486d158d231e00eff1ddbda0c45a9d2a5889f80217df4dacecf2dc"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/fruits_veggies/pomegranate.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4387ee461937cb82a2daeb53f632974bac7b9986fa7ca018382dcf81844ec5f8",
+      "size_bytes": 473329,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/pomegranate.usd",
+      "source_sha256": "21ae43a47a111a7ebf3c182d43b73340ebec7bc3807c9c48f7a5b1b2a6f51f36"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/avocado01/textures/Avocado01_A.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "51ed720855e79a4a045cd915600c1338270f7151f274f523268644edb48b8edc",
+      "size_bytes": 37445608,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/avocado01/textures/Avocado01_A.png",
+      "source_sha256": "51ed720855e79a4a045cd915600c1338270f7151f274f523268644edb48b8edc"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/avocado01/textures/Avocado01_N.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0ff249f88da43f6ac520d3063790761aa361ca338cdab64a3f2af5fc5f7fd121",
+      "size_bytes": 42501967,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/avocado01/textures/Avocado01_N.png",
+      "source_sha256": "0ff249f88da43f6ac520d3063790761aa361ca338cdab64a3f2af5fc5f7fd121"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/avocado01/textures/Avocado01_R.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8ff446a10706d379aa8676f784fa710ea432cc0b1ebc0bf925da2ab0a3143704",
+      "size_bytes": 5231791,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/avocado01/textures/Avocado01_R.png",
+      "source_sha256": "8ff446a10706d379aa8676f784fa710ea432cc0b1ebc0bf925da2ab0a3143704"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lemon_02/materials/OmniPBR_Opacity.mdl",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "3bbfb2444249dcbc6f5aa2b20d254d86bdfd1744a2c5c0a254a3b189a3d052f7",
+      "size_bytes": 14392,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lemon_02/materials/OmniPBR_Opacity.mdl",
+      "source_sha256": "fbd3447652dbbaa2169c6e2f3887c3f3a7133800b41a40d7748d454ad357a3ce"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lemon_02/textures/Lemons_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8126bb52465195bcc1d7df6f2a75ae7c7be1d6f7443930b648e6b7a92db93afc",
+      "size_bytes": 192665,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lemon_02/textures/Lemons_BaseColor.png",
+      "source_sha256": "8126bb52465195bcc1d7df6f2a75ae7c7be1d6f7443930b648e6b7a92db93afc"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lemon_02/textures/Lemons_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "dd2d7cf430792e0734a62c3a9637850234933729895ecff74c683995d0212ed6",
+      "size_bytes": 1577349,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lemon_02/textures/Lemons_Normal.png",
+      "source_sha256": "dd2d7cf430792e0734a62c3a9637850234933729895ecff74c683995d0212ed6"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lemon_02/textures/Lemons_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "e6bbdd3c3ee47c6f1f99d023a383cb094854db3e7ab5ead57e0b118c8e29cf65",
+      "size_bytes": 264860,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lemon_02/textures/Lemons_ORM.png",
+      "source_sha256": "e6bbdd3c3ee47c6f1f99d023a383cb094854db3e7ab5ead57e0b118c8e29cf65"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lime01/textures/Lime01_A.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "eb2a487d226fcd0cb7e427838bece0fc87307d3c89da3763f84290eb26e09c20",
+      "size_bytes": 43239132,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lime01/textures/Lime01_A.png",
+      "source_sha256": "eb2a487d226fcd0cb7e427838bece0fc87307d3c89da3763f84290eb26e09c20"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lime01/textures/Lime01_N.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "1a4ad46d8d8bd5d8b45db20847f3fcb05b72645410b2cf24d9d9aec211ab44a6",
+      "size_bytes": 49573395,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lime01/textures/Lime01_N.png",
+      "source_sha256": "1a4ad46d8d8bd5d8b45db20847f3fcb05b72645410b2cf24d9d9aec211ab44a6"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/lime01/textures/Lime01_R.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "54349e70b78a8a019be0c44c9d494a5be589bb4478b92e1ce316504bcc30d45b",
+      "size_bytes": 15789587,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/lime01/textures/Lime01_R.png",
+      "source_sha256": "54349e70b78a8a019be0c44c9d494a5be589bb4478b92e1ce316504bcc30d45b"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_01/textures/orange_fruit_basecolor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ab03aa20a786c90de2124bbeea142133b15159ab4265f9b95cd628652f6f6323",
+      "size_bytes": 417401,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_01/textures/orange_fruit_basecolor.png",
+      "source_sha256": "ab03aa20a786c90de2124bbeea142133b15159ab4265f9b95cd628652f6f6323"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_01/textures/orange_fruit_normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "55f7a1bb9bbf4b8921378dfde4d0ba2e679906878ad9ef698149451aa7796e1c",
+      "size_bytes": 404725,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_01/textures/orange_fruit_normal.png",
+      "source_sha256": "55f7a1bb9bbf4b8921378dfde4d0ba2e679906878ad9ef698149451aa7796e1c"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_01/textures/orange_fruit_roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c8d1e80714765536ec1a455a65006e718ee4ff30aa67c26a8cac26038092c145",
+      "size_bytes": 129209,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_01/textures/orange_fruit_roughness.png",
+      "source_sha256": "c8d1e80714765536ec1a455a65006e718ee4ff30aa67c26a8cac26038092c145"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_01/textures/tree_bark_03_diff_2k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "fe51f838c6347eea0aa1445fda21b1b025b62f35e61598897f0dbe98c042f35d",
+      "size_bytes": 25735923,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_01/textures/tree_bark_03_diff_2k.png",
+      "source_sha256": "fe51f838c6347eea0aa1445fda21b1b025b62f35e61598897f0dbe98c042f35d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_02/textures/orange_fruit_basecolor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ab03aa20a786c90de2124bbeea142133b15159ab4265f9b95cd628652f6f6323",
+      "size_bytes": 417401,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_02/textures/orange_fruit_basecolor.png",
+      "source_sha256": "ab03aa20a786c90de2124bbeea142133b15159ab4265f9b95cd628652f6f6323"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_02/textures/orange_fruit_normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "55f7a1bb9bbf4b8921378dfde4d0ba2e679906878ad9ef698149451aa7796e1c",
+      "size_bytes": 404725,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_02/textures/orange_fruit_normal.png",
+      "source_sha256": "55f7a1bb9bbf4b8921378dfde4d0ba2e679906878ad9ef698149451aa7796e1c"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_02/textures/orange_fruit_roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c8d1e80714765536ec1a455a65006e718ee4ff30aa67c26a8cac26038092c145",
+      "size_bytes": 129209,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_02/textures/orange_fruit_roughness.png",
+      "source_sha256": "c8d1e80714765536ec1a455a65006e718ee4ff30aa67c26a8cac26038092c145"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/orange_02/textures/tree_bark_03_diff_2k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "fe51f838c6347eea0aa1445fda21b1b025b62f35e61598897f0dbe98c042f35d",
+      "size_bytes": 25735923,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/orange_02/textures/tree_bark_03_diff_2k.png",
+      "source_sha256": "fe51f838c6347eea0aa1445fda21b1b025b62f35e61598897f0dbe98c042f35d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_A.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "be0186c36109bd404f9f96d242ddcd00aecb6119f4fbfc304cb9ab2b36a98891",
+      "size_bytes": 50108818,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_A.png",
+      "source_sha256": "be0186c36109bd404f9f96d242ddcd00aecb6119f4fbfc304cb9ab2b36a98891"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_N.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "7876262240d472199eadf6bdb898bd21a25159e56222c28ec171a01fc2e05856",
+      "size_bytes": 50728566,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_N.png",
+      "source_sha256": "7876262240d472199eadf6bdb898bd21a25159e56222c28ec171a01fc2e05856"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_R.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d3b9662d7d02ff45f89257f4361e9fd4e28ad8cf3b46c324d40d21e315236061",
+      "size_bytes": 9778955,
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_R.png",
+      "source_sha256": "d3b9662d7d02ff45f89257f4361e9fd4e28ad8cf3b46c324d40d21e315236061"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/canned_mushrooms.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "7b3365046d624938bd95635c0d309d85e39abf19b96b1444596de03d7803d6bd",
+      "size_bytes": 418682,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/canned_mushrooms.usd",
+      "source_sha256": "cff3fcf665472c17cdf6f21ef78ec8a557ff46445cb8fda3bb46c274413998f0"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/canned_peaches.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ad54b6250a4f63b9b716932ab34a29977b02c623ebef6efbebeac23c26988b23",
+      "size_bytes": 432639,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/canned_peaches.usd",
+      "source_sha256": "41322fecdf3f59946f6bb36077fa164d51ac53cb61dee89271ed3b0ec392de9e"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/canned_tuna.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "272b46795bbda090e640fa51d4c78c33c934be4964557625c8978e368374cdc8",
+      "size_bytes": 401982,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/canned_tuna.usd",
+      "source_sha256": "fadab6da9ec507837ef99fccb17c0f6a0016faa513a67bee8531e53ec171460d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/corn_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b6a3fae80a0a050fb047b53f1c1e32187de073b86931a656321534969abbd9dc",
+      "size_bytes": 444724,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/corn_can.usd",
+      "source_sha256": "c0b0b5a141e093ef9b1577fb15063c64b42db7d70731806094dc2bd0db4d82a8"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/cream_cheese.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0ba104f4a5445f89b6e7dc83cf264ef85ee1d8f9becb475f17cafc9b83bdaccd",
+      "size_bytes": 386411,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/cream_cheese.usd",
+      "source_sha256": "41c2c68d665b114ea3bd078ad7309a9ee657a22ea405963b15a04c9d3fd8c651"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/granola_bars.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "3a9b2249bfb97b74cf8b87a8c7fa5d35310950c83d9fd849627bac85aa085fde",
+      "size_bytes": 453744,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/granola_bars.usd",
+      "source_sha256": "4137dcd245fd0530b97ddaec43426db6e22b17feab48d76a82f9d348e93e3335"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/ketchup_bottle.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "e5e9f6c0bf43912ac3ee03a7ab8c52397c5f19d8de5a868feae8c7b2809acac8",
+      "size_bytes": 371904,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/ketchup_bottle.usd",
+      "source_sha256": "adbfb4be692b81110fd32d954c82c668bf48e043e1a1581ed47c52c87a382fc8"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/mayonnaise_bottle.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "32f74b28723074f706d0db4858f6432631531a8ef5ae7a8c413343a034c941db",
+      "size_bytes": 369263,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/mayonnaise_bottle.usd",
+      "source_sha256": "d8a03c26ec5f882eb41fb7d8ad58142ae7036c62389dae8f590821b32dffd81b"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/milk_carton.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "6b7474f78375f1c4fdecbfc873086a4eeceb2157d701204ac23ec083b105ab2a",
+      "size_bytes": 362323,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/milk_carton.usd",
+      "source_sha256": "6fc3c0745f301285f355b0b0f7eed46cd2b2a9539990494ca9e9c863eb937c92"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/mustard_bottle.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "89aded1d5efc7054f1c5edea1568b7605e01cb4f48dd2c5d6a78d985a7e13542",
+      "size_bytes": 461121,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/mustard_bottle.usd",
+      "source_sha256": "f930eec20587121deb9632e07d3646841fc8a5a91632f6e429f90c259addc725"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/orange_juice_carton.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d49ad0c48cc249b87a3f1e61cabf4a1b0fe6e7b0ff8f8c778c5d31b148cb35b6",
+      "size_bytes": 482741,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/orange_juice_carton.usd",
+      "source_sha256": "b068eec04706f7a94f2c18607a0baa0db8a8f2a945a269c60f558eea7fcf26c3"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/parmesan_cheese_canister.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "099c600efb66a3e25cc380dee576ada0a6e9c9a485d94a9ded7f9413241f99f6",
+      "size_bytes": 529197,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/parmesan_cheese_canister.usd",
+      "source_sha256": "a4cdd74da61be4fe2baf6e5ed91547dcfe6e881f8a6f120df198c97adb0930fe"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/peas_and_carrots.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "7f442adf256ab109bd174df9c6dc2b866d7acd611462204bec7eca3904dc9a2e",
+      "size_bytes": 454003,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/peas_and_carrots.usd",
+      "source_sha256": "da193174c7f7cca3bc8a6b646ec4e4516524ca688aaacb573dbd46ac1c91e1b3"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/popcorn_box.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d2e7a0606a6fb6c285b7e0ef87ba2db676fef87c07f28eba725e85748148c4f0",
+      "size_bytes": 432258,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/popcorn_box.usd",
+      "source_sha256": "17c2f87b89f463fd7e4aa70be5441c5d9717a721cc0bc295d6f9c957e5545d2b"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/raisin_box.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0fb54ec36134ec193739ada7ff9aef37b14f05834386750b3336f9debce44add",
+      "size_bytes": 489559,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/raisin_box.usd",
+      "source_sha256": "44ab8cf33e0cc3a86cffd6bfe7dc88fabdc88243487cce27cde352d9a46ef5e9"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000007.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "a8d896d1c80dba9cc881c2bbe017785d0886d3629d5fd4c4f6bf3700f225a7d5",
+      "size_bytes": 2292211,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000007.png",
+      "source_sha256": "a8d896d1c80dba9cc881c2bbe017785d0886d3629d5fd4c4f6bf3700f225a7d5"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000008.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "6ef390c92c83f6f27da79df09130e48bda6785f98181942d2ec2548ab2afa814",
+      "size_bytes": 3071899,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000008.png",
+      "source_sha256": "6ef390c92c83f6f27da79df09130e48bda6785f98181942d2ec2548ab2afa814"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000009.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "39a1b488fab589ec764c6173483807e9a54dd1975e414d4e25aad542770125dd",
+      "size_bytes": 3485938,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000009.png",
+      "source_sha256": "39a1b488fab589ec764c6173483807e9a54dd1975e414d4e25aad542770125dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000011.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "01edda2f924589b0a23aac084c1270a4a39afde79131a1bec73f7a23ad592bfe",
+      "size_bytes": 1898296,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000011.png",
+      "source_sha256": "01edda2f924589b0a23aac084c1270a4a39afde79131a1bec73f7a23ad592bfe"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000013.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c1108b2dd7892640a69e9329699186bf16b7abacc43b044f371d980d01e2b375",
+      "size_bytes": 2236734,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000013.png",
+      "source_sha256": "c1108b2dd7892640a69e9329699186bf16b7abacc43b044f371d980d01e2b375"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000014.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0e6130ec7a6a611a2574bba4f3d77bfaecd8ff6ed0fd449e34fe8479f4585ec3",
+      "size_bytes": 3384036,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000014.png",
+      "source_sha256": "0e6130ec7a6a611a2574bba4f3d77bfaecd8ff6ed0fd449e34fe8479f4585ec3"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000015.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b5f0221622fdea8cffa27a8a34d989513e66feeada89ef451f7737018a2b7ee4",
+      "size_bytes": 2199102,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000015.png",
+      "source_sha256": "b5f0221622fdea8cffa27a8a34d989513e66feeada89ef451f7737018a2b7ee4"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000016.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "f5357cee4f201d65cacb27efdac175a49c9be6608f8ba3ceb42310b8570fdfca",
+      "size_bytes": 2137759,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000016.png",
+      "source_sha256": "f5357cee4f201d65cacb27efdac175a49c9be6608f8ba3ceb42310b8570fdfca"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000017.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2488e5d72c7848db195be1d5a08d45a00b04122fff7ddcc107014d177d6d08c9",
+      "size_bytes": 3637784,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000017.png",
+      "source_sha256": "2488e5d72c7848db195be1d5a08d45a00b04122fff7ddcc107014d177d6d08c9"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000018.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b99808238fa9d3be6cbf18c1b478344e2b364ade54088b503c5671e6ff2a6292",
+      "size_bytes": 2950343,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000018.png",
+      "source_sha256": "b99808238fa9d3be6cbf18c1b478344e2b364ade54088b503c5671e6ff2a6292"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000019.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "1c05ce938b3c4775702a7079b0989639f00b0758fb2a6d0070f9bb611ee11ea8",
+      "size_bytes": 2228941,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000019.png",
+      "source_sha256": "1c05ce938b3c4775702a7079b0989639f00b0758fb2a6d0070f9bb611ee11ea8"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000020.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "31a9a75eed243281f8076c78b7de966f2390044e19b181f2ce7b3e6f756f893a",
+      "size_bytes": 2417224,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000020.png",
+      "source_sha256": "31a9a75eed243281f8076c78b7de966f2390044e19b181f2ce7b3e6f756f893a"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000022.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4d2469127fcf474e20cb66d803e95f1df0cd2183cdb88815f863562f00ad8078",
+      "size_bytes": 3231298,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000022.png",
+      "source_sha256": "4d2469127fcf474e20cb66d803e95f1df0cd2183cdb88815f863562f00ad8078"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000023.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "174e0a599483e7d82d39cd2509f5408edcca76d78f1008b0454080888c786455",
+      "size_bytes": 3225412,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000023.png",
+      "source_sha256": "174e0a599483e7d82d39cd2509f5408edcca76d78f1008b0454080888c786455"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000026.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9372cff38688004b69e7a1fc60ffa2576d6cf31a884de279d0d67bdd4a35c631",
+      "size_bytes": 2451651,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000026.png",
+      "source_sha256": "9372cff38688004b69e7a1fc60ffa2576d6cf31a884de279d0d67bdd4a35c631"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000027.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "039df2a3b3cefec162bea980558b2bafcb7b631f0734ac52f686cc3c60df7c91",
+      "size_bytes": 2246911,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000027.png",
+      "source_sha256": "039df2a3b3cefec162bea980558b2bafcb7b631f0734ac52f686cc3c60df7c91"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hope/textures/obj_000028.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "462afff53e132f6719df65ea2c42e704d55c6b4acc76d95ed4c7ad30ef7a9f1a",
+      "size_bytes": 1830997,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/textures/obj_000028.png",
+      "source_sha256": "462afff53e132f6719df65ea2c42e704d55c6b4acc76d95ed4c7ad30ef7a9f1a"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/tomato_sauce_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b5d67c16144c7b22b76153b63e423b8a8a0829f037fd8ebe3380f0a20f24ed2d",
+      "size_bytes": 698591,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/tomato_sauce_can.usd",
+      "source_sha256": "e80f8e35f185c202d13cf4645ecb1b521e8ffcc15ea8518c65138875bdbba34d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hope/yogurt_cup.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "37c102638e12a5b7f5025c926145878a712dfb0de7da98706ea037c746cb2c72",
+      "size_bytes": 818372,
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/yogurt_cup.usd",
+      "source_sha256": "b8ebf95a9e9ea0fa8df8c5096be8576df3f5feed30eee51ae08f883d3b6f4da8"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/bbq_sauce_bottle.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2f6247a8a9dc1cdf2523944c19457578e877ae6dfc154f362a704bdb543ce233",
+      "size_bytes": 196210,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/bbq_sauce_bottle.usd",
+      "source_sha256": "7379a80811b8e26f079f6d9e8922c6de4e4ea8e8647b00784fa058b51a2c9561"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/ceramic_mug.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "a2647f13ed8860dc4ef2252aff89cb8b348d8a8d09aa58e6f5292c8e942e4e59",
+      "size_bytes": 325473,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/ceramic_mug.usd",
+      "source_sha256": "2031925ba731b597b50a02b7aa2358f57a4870b6b32bb2313e4e43786f99e44e"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/coffee_pot.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "130a3b2cadcd7099a5cb095b40777f17b0d30c6107256d7dd2dffa55d564d89c",
+      "size_bytes": 969671,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/coffee_pot.usd",
+      "source_sha256": "305ace017714cecf6743db0e8323f85e8be576f051f39c0a6c4b5990e99af590"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/foam_roller.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8c252f6cb9cb38f3c1f941a28fff292d9e05baaf7de3b75f78724648be84f51c",
+      "size_bytes": 733279,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/foam_roller.usd",
+      "source_sha256": "6e2ae0908dad0f01fe6002dbf769a22fed162f5b80b679153be0895befa75582"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/frozen_vegetable_block.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "77b03a33034711e748d8ed80a925eea6059ad063add78fa59974496ea2b85b13",
+      "size_bytes": 485497,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/frozen_vegetable_block.usd",
+      "source_sha256": "31fcdcc20e82fafa5b48bcca1409baa52e63acd2ac546564e9256c9698380eb5"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/frozen_waffles.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4a8b4be6092faa93f2eae71393b1dda2d85b48b3a3768c32b24df11f3ee2969f",
+      "size_bytes": 691690,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/frozen_waffles.usd",
+      "source_sha256": "5041039e8e6e95126c26ea488f9cf63d706107a3c72ce1993b85244bd8b16c98"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/remote_control.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "5ef2c65652788d447f3f4e4a83f5a27a48a0b124822edcbf4091269384e3a9c9",
+      "size_bytes": 507146,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/remote_control.usd",
+      "source_sha256": "3883099dbf7243c1cfc92b7e215832abb057ca53f2299d08b01fd58585cd6076"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/rubiks_cube.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "cf6cdd6c82d3488eec570e1ac0e5a2b4ea0bcb7627f86657606af27da6fff092",
+      "size_bytes": 682043,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/rubiks_cube.usd",
+      "source_sha256": "d9497c0a01c51df76d8c69e595ab91637fa028140f2656628549283267e65024"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/smartphone.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "26a5eae82aeaf38ed289b5f304c29d5984f0cb374a2df626cd4784c44c2472e4",
+      "size_bytes": 93658,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/smartphone.usd",
+      "source_sha256": "d6a5b1f230ed4d92466aa30dc381d855dc69c5aa431d6cb449d472e8ec8d039b"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/soup_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "08716b5e0289c24c03b32f7e3a838e5e8485c252da5d6d5bed2ad785f2e23963",
+      "size_bytes": 289113,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/soup_can.usd",
+      "source_sha256": "840ab3201f1f092dcc2d4c7620a31fff089a35b28af7d252270a8b9600dd491b"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/storage_box.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "19e3d0dcb221f03f966dbb592aed7f8d98e15a04ebb3f6662aa0f2a80b7be8ac",
+      "size_bytes": 3290373,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/storage_box.usd",
+      "source_sha256": "87f149c51691d05e1adedb5d66574df167385d1bd6829e04515b2864f511edc0"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000002.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4471d523b7684fcd8d27f380904376bd72b59d206ee4b256aa040bf474c4b5eb",
+      "size_bytes": 2893064,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000002.png",
+      "source_sha256": "4471d523b7684fcd8d27f380904376bd72b59d206ee4b256aa040bf474c4b5eb"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000007.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "31b35f16e826806b3b1d58a25cec2a7a8f3bb810f1e60de622a7467f6caafbd5",
+      "size_bytes": 3281626,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000007.png",
+      "source_sha256": "31b35f16e826806b3b1d58a25cec2a7a8f3bb810f1e60de622a7467f6caafbd5"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000008.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "22383c97cd7d906579d5c8dc64a0581ce1e1814dc5725ec01604fad152fd29fe",
+      "size_bytes": 2331354,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000008.png",
+      "source_sha256": "22383c97cd7d906579d5c8dc64a0581ce1e1814dc5725ec01604fad152fd29fe"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000010.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c768d883ed035530cef80c53342066bf58d3d111d33a1b4dc49b6e8b98fd6fb3",
+      "size_bytes": 2701040,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000010.png",
+      "source_sha256": "c768d883ed035530cef80c53342066bf58d3d111d33a1b4dc49b6e8b98fd6fb3"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000014.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "aa348916eab2a2c4e50ee5b91e6bfd5c3ecdcae8d65b7f15abb3739ce3c4563f",
+      "size_bytes": 478325,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000014.png",
+      "source_sha256": "aa348916eab2a2c4e50ee5b91e6bfd5c3ecdcae8d65b7f15abb3739ce3c4563f"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000020.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "17a73cd22d602f166a03b29f6788a691902ad61e2972a361a43f8e23a9270313",
+      "size_bytes": 3123303,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000020.png",
+      "source_sha256": "17a73cd22d602f166a03b29f6788a691902ad61e2972a361a43f8e23a9270313"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000021.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2a244f89ffd9cffdd8a4bcc29b451830eecd3f2613af13c6d59778d78073fc63",
+      "size_bytes": 1955424,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000021.png",
+      "source_sha256": "2a244f89ffd9cffdd8a4bcc29b451830eecd3f2613af13c6d59778d78073fc63"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000024.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2fba3e111ff15b3c1fad1925b9358b7291f510d2a311ddde518baf4490464fa7",
+      "size_bytes": 82,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000024.png",
+      "source_sha256": "2fba3e111ff15b3c1fad1925b9358b7291f510d2a311ddde518baf4490464fa7"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000025.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "7078545e704baccba388ff234d238a0372d3080f3d167cf3ca1f21cd923c4b97",
+      "size_bytes": 3375826,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000025.png",
+      "source_sha256": "7078545e704baccba388ff234d238a0372d3080f3d167cf3ca1f21cd923c4b97"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000029.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ef6ca67b9c7f658b2d3c99ebc9d5b72b32fa0ad82d43acd7517faa38dcd87df3",
+      "size_bytes": 2039443,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000029.png",
+      "source_sha256": "ef6ca67b9c7f658b2d3c99ebc9d5b72b32fa0ad82d43acd7517faa38dcd87df3"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000030.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d77642c56ff641e359b77acb24d93f1b6dd14e5f6a90d3c3f85b8a45c337f197",
+      "size_bytes": 2093975,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000030.png",
+      "source_sha256": "d77642c56ff641e359b77acb24d93f1b6dd14e5f6a90d3c3f85b8a45c337f197"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/hot3d/textures/obj_000033.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "58805d79ca111d85e3ba862b8d91ccc19a240cfc748d8ca09614eea8773e7039",
+      "size_bytes": 2500472,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/textures/obj_000033.png",
+      "source_sha256": "58805d79ca111d85e3ba862b8d91ccc19a240cfc748d8ca09614eea8773e7039"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/hot3d/wooden_bowl.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0b93fb5e3d155dd966e01adb9a02c96a631ee8e353f742f0f2693153663dad09",
+      "size_bytes": 1139714,
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/wooden_bowl.usd",
+      "source_sha256": "3ec971509e06f2506272d4dd37e095ece763fd526a845b14600082f100352512"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/objaverse/apple_01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "783cf7a099ea247547fe82692718966d80e1f516cf3ee4ad97de23e5c2de4a20",
+      "size_bytes": 9284119,
+      "source_family": "scene_assets",
+      "source_path": "objects/objaverse/apple_01.usd",
+      "source_sha256": "d89c903329abadc82bd90b152727beb9f66b8914914db29360674065b4e161f6"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/objaverse/textures/apple_01.jpg",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ea0f98c6b0de75ecccdeb3f2e7de1eef0888a51c509c995fea816163d41138de",
+      "size_bytes": 499006,
+      "source_family": "scene_assets",
+      "source_path": "objects/objaverse/textures/apple_01.jpg",
+      "source_sha256": "ea0f98c6b0de75ecccdeb3f2e7de1eef0888a51c509c995fea816163d41138de"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_a01/bin_a01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "e915ed65ca715b99a72803c927da766a5e52e67d345b782fbd973821fca4c1c5",
+      "size_bytes": 279143,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a01/bin_a01.usd",
+      "source_sha256": "b66af6e86ce784fbba7d79b5c083fef5f5674ee62c04544a58c1b84de988a5cf"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a01/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a01/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a01/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a01/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_a02/bin_a02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "edf87eeb4608ab44c4dca57eb85f806d9ecf51fb9734a8fc8869cb7c624ad75f",
+      "size_bytes": 357974,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a02/bin_a02.usd",
+      "source_sha256": "047bba4ed24ef6983cd72a6f1139d72dde6d9fb5aa3865fd1e49860c22d78cd5"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a02/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a02/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a02/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a02/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_a03/bin_a03.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "6b1b725451b1531922b88327bc530af2298837ba41c41fbe7c4f17779e9e5d16",
+      "size_bytes": 432415,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a03/bin_a03.usd",
+      "source_sha256": "92c956f6d9349e341c8f9a04d0e23c70196e02fb728dcc0e05a669d5b8aaf454"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4a7e03a74abf7247187374f4fa02fcf9fbbcee0f4027ff959b799f15fe68d254",
+      "size_bytes": 2740350,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a03/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "4a7e03a74abf7247187374f4fa02fcf9fbbcee0f4027ff959b799f15fe68d254"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a03/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a03/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a03/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_a04/bin_a04.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "53fa4b1dd615bd87d8767c6599f39b94a73b8846aa870e3e1c2a21d3596d9c14",
+      "size_bytes": 713792,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a04/bin_a04.usd",
+      "source_sha256": "8d3427672e8ffaf4a62bd4af07a9e90838161a8afc64feec4fc3a288e11120f4"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a04/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a04/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a04/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a04/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_a05/bin_a05.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c5985f10406b9da24c4cc66b56f8771897ea9be4a1a5df69845cf23d3ebf2bf9",
+      "size_bytes": 714718,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a05/bin_a05.usd",
+      "source_sha256": "fdbb0866dfcbe961c44fe282ea4e60f05bd4ec9249858bf78f45c606a07dd131"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a05/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a05/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a05/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a05/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_b01/bin_b01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9daa4c09aecf6c654dc40632b1b77668bd0b80b439c42b0232b4d25db35be133",
+      "size_bytes": 139582,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b01/bin_b01.usd",
+      "source_sha256": "5b3ca8a09fba5ec96a30c27e51b2f738a69c4ca690f041feb9dd067c62c93d5d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b01/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b01/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b01/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b01/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_b02/bin_b02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "110a87a4b1a4798791356bcfb2e297304b1e14ecfd05158d5740ee634a2adbc8",
+      "size_bytes": 211905,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b02/bin_b02.usd",
+      "source_sha256": "581fb4a3b235887900a3c663c73a2fd9983defe6fb959b5c63db1e6518aa749d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b02/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b02/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b02/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b02/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_b03/bin_b03.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "549ef5ba1228f84e2f8f91984e6fced6240d47b35e1feeba4157f812d2485e0d",
+      "size_bytes": 226325,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b03/bin_b03.usd",
+      "source_sha256": "0046f538e0ffaca59f45466b884213c0c17e241cce9bce4a37f66aec60ab78a7"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b03/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b03/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b03/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b03/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/bin_b04/bin_b04.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "48d71c72d494bbb9de6bae1271090fd739e6f8a58a604a2599c5775d8f7086a9",
+      "size_bytes": 221997,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b04/bin_b04.usd",
+      "source_sha256": "530633f5e4d27ea904ec888a72af978211efacd24394f256d3b0d78c14f41fa5"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_Gray_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd",
+      "size_bytes": 2741864,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b04/textures/T_Plastic_Gray_A_Albedo.png",
+      "source_sha256": "45604d449bf31d0f956dfa990745da7bc54beb3bd017af0126f3abf5e7e065dd"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_Gray_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96",
+      "size_bytes": 3257454,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b04/textures/T_Plastic_Gray_A_ORM.png",
+      "source_sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_Normal_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300",
+      "size_bytes": 4152274,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b04/textures/T_Plastic_Normal_1k.png",
+      "source_sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_ORM_1k.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d",
+      "size_bytes": 901654,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b04/textures/T_Plastic_ORM_1k.png",
+      "source_sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "cb60ffb0d27182ad34f5918705ece998be9a170196c35c34a99a080230342763",
+      "size_bytes": 1637840,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd",
+      "source_sha256": "54b9f56c6bdb798d4c70ec280d8358c055dc4144404bce5df8b45ea2eb9a241c"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_A.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "06ed900f07c5527d2322623ceebd60c18fbb821a0d0100dfba9ae9eb849ecc0f",
+      "size_bytes": 5451127,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_A.png",
+      "source_sha256": "06ed900f07c5527d2322623ceebd60c18fbb821a0d0100dfba9ae9eb849ecc0f"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_M.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "6cc0f139c8c3ecf453d38c93bf2c6f121d65396095f9ff14979614984bc1044e",
+      "size_bytes": 247810,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_M.png",
+      "source_sha256": "6cc0f139c8c3ecf453d38c93bf2c6f121d65396095f9ff14979614984bc1044e"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_N.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "a8944bb04c908dcbabe9dbc3607e45345ad7eb27636292c69c1b88022ae9072d",
+      "size_bytes": 11492722,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_N.png",
+      "source_sha256": "a8944bb04c908dcbabe9dbc3607e45345ad7eb27636292c69c1b88022ae9072d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_R.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "25d8594966cd0e0d1d20b129bc61544da1f108a0d7660ecb3559b8a84d3c6932",
+      "size_bytes": 3802933,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_R.png",
+      "source_sha256": "25d8594966cd0e0d1d20b129bc61544da1f108a0d7660ecb3559b8a84d3c6932"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/closedheadpail_a01/closedheadpail_a01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d16e5e6a0df9a5c83616ddb97c3391865834ced72d73f9f0227c1d2cb5b0308e",
+      "size_bytes": 927678,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/closedheadpail_a01/closedheadpail_a01.usd",
+      "source_sha256": "1f371cf04b6c4a44bdc63acbf3641e9e7d0bc156d406431582852a7f3d7e9d2e"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/closedheadpail_a01/textures/T_Plastic_Blue_A_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ce17275431eb64d783cd66575b68088bae7c3f0282aab1afbbd8d17b786d4607",
+      "size_bytes": 19489531,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/closedheadpail_a01/textures/T_Plastic_Blue_A_Normal.png",
+      "source_sha256": "ce17275431eb64d783cd66575b68088bae7c3f0282aab1afbbd8d17b786d4607"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "373557b7f199cc5b062e8d3c1b40c2794dda6f780b252013c33ded25d0e18ebe",
+      "size_bytes": 313296,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/cubebox_a02.usd",
+      "source_sha256": "0baf38a5228925120b3cc77cab27f561c03d36d5487991a7fb39e388f9df7ae6"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Tile_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "66cc8e105a398383eec2be41f30506f62572d6f9245f13caefbaf0230a012262",
+      "size_bytes": 37508155,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Tile_Albedo.png",
+      "source_sha256": "66cc8e105a398383eec2be41f30506f62572d6f9245f13caefbaf0230a012262"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Tile_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "1d0db3414ee0e3bd4ef11ce27644668fd4eea82dabfdaabac61ea9948ba9fc35",
+      "size_bytes": 19817665,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Tile_ORM.png",
+      "source_sha256": "1d0db3414ee0e3bd4ef11ce27644668fd4eea82dabfdaabac61ea9948ba9fc35"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "4a5eca6721c661fcc1a108806d6095b3f1312aa57e42f7d8af086cbb334afea6",
+      "size_bytes": 9959837,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Albedo.png",
+      "source_sha256": "4a5eca6721c661fcc1a108806d6095b3f1312aa57e42f7d8af086cbb334afea6"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "1144b33e323562a88f8863ab3cbdf53759e0270aa51d2943364d761bc5ffdd6c",
+      "size_bytes": 4188361,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Normal.png",
+      "source_sha256": "1144b33e323562a88f8863ab3cbdf53759e0270aa51d2943364d761bc5ffdd6c"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2ab015e91b6d466cf2b89f87c0854785b1e726da5e80bc46807d92b0138137b7",
+      "size_bytes": 7260637,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_ORM.png",
+      "source_sha256": "2ab015e91b6d466cf2b89f87c0854785b1e726da5e80bc46807d92b0138137b7"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Opacity.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "65166e185a7ab1678fedc396e7e8a0080996ef61b2e020b596c81a677f7c7cb2",
+      "size_bytes": 473409,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Opacity.png",
+      "source_sha256": "65166e185a7ab1678fedc396e7e8a0080996ef61b2e020b596c81a677f7c7cb2"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/milkjug_a03/milkjug_a03.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "aed7cd1edd3e43cb25cf1ac634f7432950cdb834eaa548d7f1717343d1dc6c46",
+      "size_bytes": 2233313,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/milkjug_a03/milkjug_a03.usd",
+      "source_sha256": "aed7cd1edd3e43cb25cf1ac634f7432950cdb834eaa548d7f1717343d1dc6c46"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/naturalbostonroundbottle_a02/naturalbostonroundbottle_a02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "bdde6cebf3a402190935372a0a5036ac77a572f1ec98f45aacdd47e3dccd9812",
+      "size_bytes": 489380,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/naturalbostonroundbottle_a02/naturalbostonroundbottle_a02.usd",
+      "source_sha256": "bdde6cebf3a402190935372a0a5036ac77a572f1ec98f45aacdd47e3dccd9812"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "e5fb5ed5b39be4748da010b26a027863bac74c918e63fa392437e3bc65d60da4",
+      "size_bytes": 1692045,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd",
+      "source_sha256": "36f4c4055356d9c72865849ac3def97e00d3394e81813546ab7eed727513c585"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8651c508aa80422f9e2b5581db259a59568acb2056b2d83517fa258cedb40be4",
+      "size_bytes": 622448,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "source_sha256": "8651c508aa80422f9e2b5581db259a59568acb2056b2d83517fa258cedb40be4"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8196e8a80959f852dfd0d3cea47ad55a050f24cf9a2cdedc0630cd52d176ac9b",
+      "size_bytes": 13903593,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_Normal.png",
+      "source_sha256": "8196e8a80959f852dfd0d3cea47ad55a050f24cf9a2cdedc0630cd52d176ac9b"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9cce4d2e6ea569cd0efd01992d141abd0d9d82cf38f6b4caf36647db1765d6e9",
+      "size_bytes": 3056779,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_ORM.png",
+      "source_sha256": "9cce4d2e6ea569cd0efd01992d141abd0d9d82cf38f6b4caf36647db1765d6e9"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/plasticjerrican_a03/plasticjerrican_a03.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0d0b32047cc5397a58bc075cfd194a48845e9809aaae9a05b2a32d60766bd178",
+      "size_bytes": 1160694,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a03/plasticjerrican_a03.usd",
+      "source_sha256": "0d0b32047cc5397a58bc075cfd194a48845e9809aaae9a05b2a32d60766bd178"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/plate_large/plate_large.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "97394c04787a5ad18f489085515b1f29bf12657e63697888b42754c527b5cdb1",
+      "size_bytes": 320429,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_large/plate_large.usd",
+      "source_sha256": "e9fd7258cd7271fb1f890edb20a65e4398ba92922da38e08836cd0611a501afb"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_large/textures/Plates_Large_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "cb3dca47c5031ba72360f0fc64303d5c71ad64b62c3fd52c055b106190fb2c00",
+      "size_bytes": 2274089,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_large/textures/Plates_Large_BaseColor.png",
+      "source_sha256": "cb3dca47c5031ba72360f0fc64303d5c71ad64b62c3fd52c055b106190fb2c00"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_large/textures/Plates_Large_Metallic.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "bf083eb05987cb6308e0e47ff7b6d679875bc08f984cbcaf4ca82ea44f8927f4",
+      "size_bytes": 4166,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_large/textures/Plates_Large_Metallic.png",
+      "source_sha256": "bf083eb05987cb6308e0e47ff7b6d679875bc08f984cbcaf4ca82ea44f8927f4"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_large/textures/Plates_Large_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "84b634c0918e6074b0784c7afcf25a5f2d91e3c8d6251ef9cdd32fc5ac814be3",
+      "size_bytes": 2501962,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_large/textures/Plates_Large_Normal.png",
+      "source_sha256": "84b634c0918e6074b0784c7afcf25a5f2d91e3c8d6251ef9cdd32fc5ac814be3"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_large/textures/Plates_Large_Roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9e991f0b65b40d5a5fc9b20ae82370b2b185ea6403c33c2710a06e1c46ce8c09",
+      "size_bytes": 679921,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_large/textures/Plates_Large_Roughness.png",
+      "source_sha256": "9e991f0b65b40d5a5fc9b20ae82370b2b185ea6403c33c2710a06e1c46ce8c09"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/plate_small/plate_small.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d4ffa8651b6d56091193c65a94b6c8674a3fd351ced47198bcac82aaa593d898",
+      "size_bytes": 246762,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_small/plate_small.usd",
+      "source_sha256": "b49de3656f9ffe987eddf06e437239eb747c237318a60522494c8a3a84e494eb"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_small/textures/Plates_Small_BaseColor.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2d4c1e69a00d31e809aa71fb62b10194711244aaced65499a650dd15048ea295",
+      "size_bytes": 2617963,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_small/textures/Plates_Small_BaseColor.png",
+      "source_sha256": "2d4c1e69a00d31e809aa71fb62b10194711244aaced65499a650dd15048ea295"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_small/textures/Plates_Small_Metallic.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "bf083eb05987cb6308e0e47ff7b6d679875bc08f984cbcaf4ca82ea44f8927f4",
+      "size_bytes": 4166,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_small/textures/Plates_Small_Metallic.png",
+      "source_sha256": "bf083eb05987cb6308e0e47ff7b6d679875bc08f984cbcaf4ca82ea44f8927f4"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_small/textures/Plates_Small_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "89a59d0b26c2a45d8ee04fe3e054ddc87b58337d3f30c0b69729c23883cf6d4c",
+      "size_bytes": 2761826,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_small/textures/Plates_Small_Normal.png",
+      "source_sha256": "89a59d0b26c2a45d8ee04fe3e054ddc87b58337d3f30c0b69729c23883cf6d4c"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/plate_small/textures/Plates_Small_Roughness.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "a667c33b670850d999aa274bf8aee7c1b40d80f09393c30821f9e646651a4173",
+      "size_bytes": 963963,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_small/textures/Plates_Small_Roughness.png",
+      "source_sha256": "a667c33b670850d999aa274bf8aee7c1b40d80f09393c30821f9e646651a4173"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "227d84a39840c9665bdf7fd6e4396193a8152aad3f9fbe6e3ba57d7ac69e924f",
+      "size_bytes": 357457,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/serving_bowl/serving_bowl.usd",
+      "source_sha256": "6e8cbf10aa07ca26b7a8c75cdf36ba07de0e1f2623538c44d8907a00aec01c84"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2e490fca6b93e7b08c4ae87ee2958b24833629cd6a8cf92ffb0ab497267e3274",
+      "size_bytes": 2597546,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/serving_bowl/textures/ServingBowl_albedo.png",
+      "source_sha256": "2e490fca6b93e7b08c4ae87ee2958b24833629cd6a8cf92ffb0ab497267e3274"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_metal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "bf083eb05987cb6308e0e47ff7b6d679875bc08f984cbcaf4ca82ea44f8927f4",
+      "size_bytes": 4166,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/serving_bowl/textures/ServingBowl_metal.png",
+      "source_sha256": "bf083eb05987cb6308e0e47ff7b6d679875bc08f984cbcaf4ca82ea44f8927f4"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0a31267584640c05ea6f1c165f733adeb61210821150f818e01c004bd5e1cbdb",
+      "size_bytes": 462133,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/serving_bowl/textures/ServingBowl_normal.png",
+      "source_sha256": "0a31267584640c05ea6f1c165f733adeb61210821150f818e01c004bd5e1cbdb"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_rough.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "de2ca79a690db5e8f814a9cf21d8016e3d6b46bfbec3be0e0dd7e2bebdf453ba",
+      "size_bytes": 1713211,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/serving_bowl/textures/ServingBowl_rough.png",
+      "source_sha256": "de2ca79a690db5e8f814a9cf21d8016e3d6b46bfbec3be0e0dd7e2bebdf453ba"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/sm_rack_m01/sm_rack_m01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b6408c858696da21af6edb40ad81b97140ca285d094e8f3e3d3b9fee299478ca",
+      "size_bytes": 29672205,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/sm_rack_m01/sm_rack_m01.usd",
+      "source_sha256": "b6408c858696da21af6edb40ad81b97140ca285d094e8f3e3d3b9fee299478ca"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/squarepail_a02/squarepail_a02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "d5a127756a8899e602797839ebec53ffc33b70bdf881eac945c5c690427cb06f",
+      "size_bytes": 696423,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/squarepail_a02/squarepail_a02.usd",
+      "source_sha256": "d5a127756a8899e602797839ebec53ffc33b70bdf881eac945c5c690427cb06f"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/utilityjug_a01/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8651c508aa80422f9e2b5581db259a59568acb2056b2d83517fa258cedb40be4",
+      "size_bytes": 622448,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a01/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "source_sha256": "8651c508aa80422f9e2b5581db259a59568acb2056b2d83517fa258cedb40be4"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/utilityjug_a01/utilityjug_a01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "72698554cb161806ef5954021b050b5db8cf842b6c341dd43e9a50266c149754",
+      "size_bytes": 1219675,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a01/utilityjug_a01.usd",
+      "source_sha256": "0ada73e95aaffc56b6ad5f8eb5102d02d59a9ab92957f1442346c4802f7ca845"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/utilityjug_a02/utilityjug_a02.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "caeac98bfb73a0ae0ae40725d1a3f228b80f095372bbc3bff7bbcea56b44f197",
+      "size_bytes": 956120,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a02/utilityjug_a02.usd",
+      "source_sha256": "caeac98bfb73a0ae0ae40725d1a3f228b80f095372bbc3bff7bbcea56b44f197"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/utilityjug_a03/utilityjug_a03.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "5ebb7d2761a74e917bbc2a0b324f6ede3667097130cb2850244fb42ac664e04e",
+      "size_bytes": 957853,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a03/utilityjug_a03.usd",
+      "source_sha256": "5ebb7d2761a74e917bbc2a0b324f6ede3667097130cb2850244fb42ac664e04e"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_A_Normal.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8196e8a80959f852dfd0d3cea47ad55a050f24cf9a2cdedc0630cd52d176ac9b",
+      "size_bytes": 13903593,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_A_Normal.png",
+      "source_sha256": "8196e8a80959f852dfd0d3cea47ad55a050f24cf9a2cdedc0630cd52d176ac9b"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_A_ORM.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9cce4d2e6ea569cd0efd01992d141abd0d9d82cf38f6b4caf36647db1765d6e9",
+      "size_bytes": 3056779,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_A_ORM.png",
+      "source_sha256": "9cce4d2e6ea569cd0efd01992d141abd0d9d82cf38f6b4caf36647db1765d6e9"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "8651c508aa80422f9e2b5581db259a59568acb2056b2d83517fa258cedb40be4",
+      "size_bytes": 622448,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "source_sha256": "8651c508aa80422f9e2b5581db259a59568acb2056b2d83517fa258cedb40be4"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "da20c56223a695ef6b30eca2b00a1ea82da6e388fab35c2e88693ec64e71845f",
+      "size_bytes": 542349,
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd",
+      "source_sha256": "bcd5a6329e569aff639643e489eba5d8487419b426d8a5b45c56e92d1df2495e"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/banana.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "250cef6bcc2953e0717deaee00082858a0f73a11fc4373b4d4dd273cab3fe8e4",
+      "size_bytes": 419221,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/banana.usd",
+      "source_sha256": "b376d3dcbd4c66e6fbbb0ff83d09fdf0d27847cda09ca46a07590045b14b68d9"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/bowl.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "04846bfd446118ad62f112fbc3049089e9faa44020265a45d2600f3974497819",
+      "size_bytes": 342391,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/bowl.usd",
+      "source_sha256": "4674da9935073ec0355cf3e27ead3b87ab98588e1d9bbb116eedaa6fad3ce98e"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/chocolate_pudding.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "71d678a330522f1ba0f2a6f28938bf70b32a574f9fd0ac5443e9dddbf4b8bf92",
+      "size_bytes": 337431,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/chocolate_pudding.usd",
+      "source_sha256": "33399686aad3263fb0c20ea2ec88fcd0ee639cf4da4008dbe9e457a6a98576df"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/coffee_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "c080200acf8b3a4a23da3dc893ac2594d673437d6f85110d72e5a3c7aef7c1d5",
+      "size_bytes": 387439,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/coffee_can.usd",
+      "source_sha256": "9c82d99e06cca8d6e5e15943ccb7829f59af74439b87cfddbe2cc0a0dcf3b998"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/dry_erase_marker.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "188cd89ca07274b041ed9f12d598cd25d2788d09d896a542716002edbd9e81f1",
+      "size_bytes": 534899,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/dry_erase_marker.usd",
+      "source_sha256": "60490b9bf00dd44ea4d0e7e876172c6bb1fc44948065b44712ce8846101eaa86"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/jello.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "eb9fac7598c47e60a1e03ba2b973e78af55eecd472aed6bc6acbae0e269a8814",
+      "size_bytes": 338592,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/jello.usd",
+      "source_sha256": "12ed6c7cb45ae423970d340dd89e3b6e8f13622667855cd0f1bffa9e6283131d"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/mug.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "6b9834c141e9a0adf387e8afe541f6a3b379e5142366108784b6676a2254c16f",
+      "size_bytes": 625204,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/mug.usd",
+      "source_sha256": "1a0233d9a6494c37d64796ab717d9cafcc32f229d99de1666e69b4402c5c6292"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/pitcher.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "9d8fed9407fb9fe00ea4f0af5b07cab839484d33f8599e26174c0062bca473b5",
+      "size_bytes": 461803,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/pitcher.usd",
+      "source_sha256": "51d265136933328b5b28d3ddc9aac7d436c787fcd3a5ba59521f4408c7d011f9"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/spam_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "fac5cf79a693a7e71619c72b40a0a0f2d2f740ae42db890d6ee403dd4b61a4e0",
+      "size_bytes": 344440,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/spam_can.usd",
+      "source_sha256": "3def771a6b0a0f74175a67d3a480f90d8341d923fcd0d9eab809c7b2b207115a"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/sugar_box.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "ec5492ce4feed0d17f9ae788720b4607aee4f12ee9de1823e6ef7494476fb503",
+      "size_bytes": 326970,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/sugar_box.usd",
+      "source_sha256": "c4bee4897fb16b790cdcf5cd87784859f4ed60f5075b8c6e7119ab5d76ac03bf"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000001.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "58dd75e68ee169389471f1cc53011736fb08e3d2efd75e246cd7543a97696173",
+      "size_bytes": 10704986,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000001.png",
+      "source_sha256": "58dd75e68ee169389471f1cc53011736fb08e3d2efd75e246cd7543a97696173"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000003.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "2bc96cec830648eb0c4d491948464863b449309f4a61764a5b3f86a785474c5d",
+      "size_bytes": 10860631,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000003.png",
+      "source_sha256": "2bc96cec830648eb0c4d491948464863b449309f4a61764a5b3f86a785474c5d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000004.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "33183a894eb75ae04ae5188a3ae689fe8d06ec6b9f9624da1bf853c2a25e70d2",
+      "size_bytes": 9350703,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000004.png",
+      "source_sha256": "33183a894eb75ae04ae5188a3ae689fe8d06ec6b9f9624da1bf853c2a25e70d2"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000006.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0962794d75a8d9ad41ed8e19e77bd307cb4e300d5e5d2cdbc4cacfecf5b1dbad",
+      "size_bytes": 7602407,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000006.png",
+      "source_sha256": "0962794d75a8d9ad41ed8e19e77bd307cb4e300d5e5d2cdbc4cacfecf5b1dbad"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000007.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "84ed40299ebe3ddb46eb903245041e75d37a4afe98b8090fd7788ad3c51f0b98",
+      "size_bytes": 9001924,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000007.png",
+      "source_sha256": "84ed40299ebe3ddb46eb903245041e75d37a4afe98b8090fd7788ad3c51f0b98"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000008.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "5fd0de9bc41b3c77545d116febf7a72875c8b430e35efe974ab601342a942b74",
+      "size_bytes": 8252359,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000008.png",
+      "source_sha256": "5fd0de9bc41b3c77545d116febf7a72875c8b430e35efe974ab601342a942b74"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000009.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "f3cf6aa7fce365d25c476127d973998faed0b9b9318d361196b61b9a94828c91",
+      "size_bytes": 8447152,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000009.png",
+      "source_sha256": "f3cf6aa7fce365d25c476127d973998faed0b9b9318d361196b61b9a94828c91"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000010.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "b68de45c4d92a2f8d3e8da357912b16b972ef37f25b56bcb593d4cf9fdc4ba2d",
+      "size_bytes": 2893410,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000010.png",
+      "source_sha256": "b68de45c4d92a2f8d3e8da357912b16b972ef37f25b56bcb593d4cf9fdc4ba2d"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000011.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "1e2ae707ec3fb1fada520825f14a3712960948198eb569405ed71ccce1b82f8b",
+      "size_bytes": 5868026,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000011.png",
+      "source_sha256": "1e2ae707ec3fb1fada520825f14a3712960948198eb569405ed71ccce1b82f8b"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000013.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "20029d22859dd94150b3d969c0b351663b6d7be31d28b90ba15987ee3ba57fdc",
+      "size_bytes": 5919165,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000013.png",
+      "source_sha256": "20029d22859dd94150b3d969c0b351663b6d7be31d28b90ba15987ee3ba57fdc"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000014.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "dc8066a0782cabb3a479f1c91ae4274b8cbc4e0c625f91e7317a7788dc9cc3b3",
+      "size_bytes": 6728709,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000014.png",
+      "source_sha256": "dc8066a0782cabb3a479f1c91ae4274b8cbc4e0c625f91e7317a7788dc9cc3b3"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000016.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "35e5556ebc6415e58105400837594c887cc4f7416fc42a779df85ea8c4c73090",
+      "size_bytes": 9822300,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000016.png",
+      "source_sha256": "35e5556ebc6415e58105400837594c887cc4f7416fc42a779df85ea8c4c73090"
+    },
+    {
+      "direct_scene_dependency": false,
+      "path": "data/objects/objects/ycb/textures/obj_000018.png",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "0351acbfd666baabc23261c3f7d5d7645c5b55bd47cef0dbc101572552c888fb",
+      "size_bytes": 4403500,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/textures/obj_000018.png",
+      "source_sha256": "0351acbfd666baabc23261c3f7d5d7645c5b55bd47cef0dbc101572552c888fb"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/tomato_soup_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "31c6f3c4b1c1ebed3440e22e76dbd99f4ba7f4ea9169b0cc89f25f4d3f67be4b",
+      "size_bytes": 339448,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/tomato_soup_can.usd",
+      "source_sha256": "0cfa0c4ede7c269d4c7e4ecaed43e95bb8ab788ce9aa8b4504f811ffb7f9e3a3"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/tuna_can.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "63e1b1fe73cb29129f1480909e9ddc9e92c323fbeb6cc10d876ace4bbd00882a",
+      "size_bytes": 336755,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/tuna_can.usd",
+      "source_sha256": "3d7681986ce631ce1c5461bc25dcbd7a66d71cb9cd5204b3a583917f06f0b35e"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/objects/ycb/wood_block.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "424c166acf954d09bd8f0d84007da432acddecd1b00b2c3bbe224f1faae3741c",
+      "size_bytes": 349628,
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/wood_block.usd",
+      "source_sha256": "34b8d650deb4236f10896315ccc9b71962cb383f78cd0dcf297e045ec75205b5"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "38b82505c995325e3006753b58c4e78e8273e97c081e504e3244c4364dc4856a",
+      "size_bytes": 4110,
+      "source_family": "scene_assets",
+      "source_path": "scenes/safeline/risk/ets/safeline_ets_a01.usda",
+      "source_sha256": "38b82505c995325e3006753b58c4e78e8273e97c081e504e3244c4364dc4856a"
+    },
+    {
+      "direct_scene_dependency": true,
+      "path": "data/robots/franka_robotiq_2f_85_flattened.usd",
+      "redistribution_status": "requires_source_license_review",
+      "sha256": "f555695465687548a1bd31b5e3f30385182d476a67c17080b7820ad0ef747e41",
+      "size_bytes": 14156362,
+      "source_family": "runtime_assets",
+      "source_path": "robots/franka_robotiq_2f_85_flattened.usd",
+      "source_sha256": "f555695465687548a1bd31b5e3f30385182d476a67c17080b7820ad0ef747e41"
+    }
+  ],
+  "dependencies": [
+    {
+      "asset": "data/objects/fixtures/Props/instaceable_meshes.usd",
+      "owner": "data/objects/fixtures/franka_table.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_BaseColor.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Normal.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Roughness.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_BaseColor.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Normal.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Roughness.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_BaseColor.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_Normal.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_BaseColor.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Normal.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Roughness.png",
+      "owner": "data/objects/objects/basic/blue_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_BaseColor.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Normal.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Roughness.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_BaseColor.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Normal.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Roughness.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_BaseColor.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_Normal.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_BaseColor.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Roughness.png",
+      "owner": "data/objects/objects/basic/green_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_BaseColor.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Normal.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Roughness.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_BaseColor.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Normal.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Roughness.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_BaseColor.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_Normal.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_Roughness.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_BaseColor.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Normal.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Roughness.png",
+      "owner": "data/objects/objects/basic/red_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_BaseColor.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Normal.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_blue1_Roughness.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_BaseColor.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Normal.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_green1_Roughness.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_BaseColor.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_red1_Normal.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_BaseColor.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Normal.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/basic/textures/basic_block_yellow_Roughness.png",
+      "owner": "data/objects/objects/basic/yellow_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/materials/SimPBR.mdl",
+      "owner": "data/objects/objects/fruits_veggies/avocado.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/avocado01/textures/Avocado01_A.png",
+      "owner": "data/objects/objects/fruits_veggies/avocado.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/avocado01/textures/Avocado01_N.png",
+      "owner": "data/objects/objects/fruits_veggies/avocado.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/avocado01/textures/Avocado01_R.png",
+      "owner": "data/objects/objects/fruits_veggies/avocado.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lemon_02/materials/OmniPBR_Opacity.mdl",
+      "owner": "data/objects/objects/fruits_veggies/lemon2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lemon_02/textures/Lemons_BaseColor.png",
+      "owner": "data/objects/objects/fruits_veggies/lemon2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lemon_02/textures/Lemons_Normal.png",
+      "owner": "data/objects/objects/fruits_veggies/lemon2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lemon_02/textures/Lemons_ORM.png",
+      "owner": "data/objects/objects/fruits_veggies/lemon2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/materials/SimPBR.mdl",
+      "owner": "data/objects/objects/fruits_veggies/lime.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lime01/textures/Lime01_A.png",
+      "owner": "data/objects/objects/fruits_veggies/lime.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lime01/textures/Lime01_N.png",
+      "owner": "data/objects/objects/fruits_veggies/lime.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/lime01/textures/Lime01_R.png",
+      "owner": "data/objects/objects/fruits_veggies/lime.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/materials/SimPBR.mdl",
+      "owner": "data/objects/objects/fruits_veggies/orange1.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_01/textures/orange_fruit_basecolor.png",
+      "owner": "data/objects/objects/fruits_veggies/orange1.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_01/textures/orange_fruit_normal.png",
+      "owner": "data/objects/objects/fruits_veggies/orange1.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_01/textures/orange_fruit_roughness.png",
+      "owner": "data/objects/objects/fruits_veggies/orange1.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_01/textures/tree_bark_03_diff_2k.png",
+      "owner": "data/objects/objects/fruits_veggies/orange1.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/materials/SimPBR.mdl",
+      "owner": "data/objects/objects/fruits_veggies/orange2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_02/textures/orange_fruit_basecolor.png",
+      "owner": "data/objects/objects/fruits_veggies/orange2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_02/textures/orange_fruit_normal.png",
+      "owner": "data/objects/objects/fruits_veggies/orange2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_02/textures/orange_fruit_roughness.png",
+      "owner": "data/objects/objects/fruits_veggies/orange2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/orange_02/textures/tree_bark_03_diff_2k.png",
+      "owner": "data/objects/objects/fruits_veggies/orange2.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/materials/SimPBR.mdl",
+      "owner": "data/objects/objects/fruits_veggies/pomegranate.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_A.png",
+      "owner": "data/objects/objects/fruits_veggies/pomegranate.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_N.png",
+      "owner": "data/objects/objects/fruits_veggies/pomegranate.usd"
+    },
+    {
+      "asset": "data/objects/objects/fruits_veggies/textures/pomegranate01/textures/Pomegranate01_R.png",
+      "owner": "data/objects/objects/fruits_veggies/pomegranate.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000015.png",
+      "owner": "data/objects/objects/hope/canned_mushrooms.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000019.png",
+      "owner": "data/objects/objects/hope/canned_peaches.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000027.png",
+      "owner": "data/objects/objects/hope/canned_tuna.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000007.png",
+      "owner": "data/objects/objects/hope/corn_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000008.png",
+      "owner": "data/objects/objects/hope/cream_cheese.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000009.png",
+      "owner": "data/objects/objects/hope/granola_bars.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000011.png",
+      "owner": "data/objects/objects/hope/ketchup_bottle.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000013.png",
+      "owner": "data/objects/objects/hope/mayonnaise_bottle.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000014.png",
+      "owner": "data/objects/objects/hope/milk_carton.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000016.png",
+      "owner": "data/objects/objects/hope/mustard_bottle.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000017.png",
+      "owner": "data/objects/objects/hope/orange_juice_carton.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000018.png",
+      "owner": "data/objects/objects/hope/parmesan_cheese_canister.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000020.png",
+      "owner": "data/objects/objects/hope/peas_and_carrots.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000022.png",
+      "owner": "data/objects/objects/hope/popcorn_box.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000023.png",
+      "owner": "data/objects/objects/hope/raisin_box.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000026.png",
+      "owner": "data/objects/objects/hope/tomato_sauce_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/hope/textures/obj_000028.png",
+      "owner": "data/objects/objects/hope/yogurt_cup.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000014.png",
+      "owner": "data/objects/objects/hot3d/bbq_sauce_bottle.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000008.png",
+      "owner": "data/objects/objects/hot3d/ceramic_mug.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000007.png",
+      "owner": "data/objects/objects/hot3d/coffee_pot.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000029.png",
+      "owner": "data/objects/objects/hot3d/foam_roller.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000021.png",
+      "owner": "data/objects/objects/hot3d/frozen_vegetable_block.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000020.png",
+      "owner": "data/objects/objects/hot3d/frozen_waffles.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000033.png",
+      "owner": "data/objects/objects/hot3d/remote_control.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000030.png",
+      "owner": "data/objects/objects/hot3d/rubiks_cube.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000024.png",
+      "owner": "data/objects/objects/hot3d/smartphone.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000010.png",
+      "owner": "data/objects/objects/hot3d/soup_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000025.png",
+      "owner": "data/objects/objects/hot3d/storage_box.usd"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/textures/obj_000002.png",
+      "owner": "data/objects/objects/hot3d/wooden_bowl.usd"
+    },
+    {
+      "asset": "data/objects/objects/objaverse/textures/apple_01.jpg",
+      "owner": "data/objects/objects/objaverse/apple_01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_a01/bin_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_a01/bin_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a01/bin_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a01/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a01/bin_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a02/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_a03/bin_a03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_a03/bin_a03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a03/bin_a03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a03/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a03/bin_a03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_a04/bin_a04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_a04/bin_a04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a04/bin_a04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a04/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a04/bin_a04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_a05/bin_a05.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_a05/bin_a05.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a05/bin_a05.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_a05/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_a05/bin_a05.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_b01/bin_b01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_b01/bin_b01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b01/bin_b01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b01/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b01/bin_b01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_b02/bin_b02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_b02/bin_b02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b02/bin_b02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b02/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b02/bin_b02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_b03/bin_b03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_b03/bin_b03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b03/bin_b03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b03/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b03/bin_b03.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_Gray_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/bin_b04/bin_b04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_Gray_A_ORM.png",
+      "owner": "data/objects/objects/vomp/bin_b04/bin_b04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_Normal_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b04/bin_b04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/bin_b04/textures/T_Plastic_ORM_1k.png",
+      "owner": "data/objects/objects/vomp/bin_b04/bin_b04.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_A.png",
+      "owner": "data/objects/objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_M.png",
+      "owner": "data/objects/objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_N.png",
+      "owner": "data/objects/objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/blackandbrassbowl_small/textures/BlackandBrassBowl_Small_R.png",
+      "owner": "data/objects/objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/closedheadpail_a01/textures/T_Plastic_Blue_A_Normal.png",
+      "owner": "data/objects/objects/vomp/closedheadpail_a01/closedheadpail_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Tile_Albedo.png",
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Tile_ORM.png",
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Albedo.png",
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Normal.png",
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_ORM.png",
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/cubebox_a02/textures/T_CubeBox_A01_Trim_Opacity.png",
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_Normal.png",
+      "owner": "data/objects/objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plasticjerrican_a02/textures/T_Plastic_Glossy_White_A_ORM.png",
+      "owner": "data/objects/objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_large/textures/Plates_Large_BaseColor.png",
+      "owner": "data/objects/objects/vomp/plate_large/plate_large.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_large/textures/Plates_Large_Metallic.png",
+      "owner": "data/objects/objects/vomp/plate_large/plate_large.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_large/textures/Plates_Large_Normal.png",
+      "owner": "data/objects/objects/vomp/plate_large/plate_large.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_large/textures/Plates_Large_Roughness.png",
+      "owner": "data/objects/objects/vomp/plate_large/plate_large.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_small/textures/Plates_Small_BaseColor.png",
+      "owner": "data/objects/objects/vomp/plate_small/plate_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_small/textures/Plates_Small_Metallic.png",
+      "owner": "data/objects/objects/vomp/plate_small/plate_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_small/textures/Plates_Small_Normal.png",
+      "owner": "data/objects/objects/vomp/plate_small/plate_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/plate_small/textures/Plates_Small_Roughness.png",
+      "owner": "data/objects/objects/vomp/plate_small/plate_small.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_albedo.png",
+      "owner": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_metal.png",
+      "owner": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_normal.png",
+      "owner": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/serving_bowl/textures/ServingBowl_rough.png",
+      "owner": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/utilityjug_a01/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/utilityjug_a01/utilityjug_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_A_Normal.png",
+      "owner": "data/objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_A_ORM.png",
+      "owner": "data/objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/vomp/whitepackerbottle_a01/textures/T_Plastic_Glossy_White_A_Albedo.png",
+      "owner": "data/objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000010.png",
+      "owner": "data/objects/objects/ycb/banana.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000013.png",
+      "owner": "data/objects/objects/ycb/bowl.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000007.png",
+      "owner": "data/objects/objects/ycb/chocolate_pudding.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000001.png",
+      "owner": "data/objects/objects/ycb/coffee_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000018.png",
+      "owner": "data/objects/objects/ycb/dry_erase_marker.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000008.png",
+      "owner": "data/objects/objects/ycb/jello.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000014.png",
+      "owner": "data/objects/objects/ycb/mug.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000011.png",
+      "owner": "data/objects/objects/ycb/pitcher.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000009.png",
+      "owner": "data/objects/objects/ycb/spam_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000003.png",
+      "owner": "data/objects/objects/ycb/sugar_box.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000004.png",
+      "owner": "data/objects/objects/ycb/tomato_soup_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000006.png",
+      "owner": "data/objects/objects/ycb/tuna_can.usd"
+    },
+    {
+      "asset": "data/objects/objects/ycb/textures/obj_000016.png",
+      "owner": "data/objects/objects/ycb/wood_block.usd"
+    },
+    {
+      "asset": "data/objects/fixtures/franka_table.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    },
+    {
+      "asset": "data/objects/fixtures/table_oak.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    },
+    {
+      "asset": "data/objects/objects/hope/milk_carton.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    },
+    {
+      "asset": "data/objects/objects/hope/yogurt_cup.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    },
+    {
+      "asset": "data/objects/objects/hot3d/rubiks_cube.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    },
+    {
+      "asset": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    },
+    {
+      "asset": "data/objects/objects/ycb/banana.usd",
+      "owner": "data/objects/scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    }
+  ],
+  "entry_points": [
+    {
+      "optional_runtime_asset": true,
+      "scene_ids": [],
+      "source_family": "runtime_assets",
+      "source_path": "backgrounds/default/home_office.exr"
+    },
+    {
+      "optional_runtime_asset": true,
+      "scene_ids": [],
+      "source_family": "runtime_assets",
+      "source_path": "robots/franka_robotiq_2f_85_flattened.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01",
+        "ISH-N11",
+        "O06",
+        "O23",
+        "O32",
+        "P28",
+        "P29",
+        "P30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/blue_block.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N11",
+        "O16"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/green_block.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01",
+        "ISH-N11",
+        "O14",
+        "P28",
+        "P29",
+        "P30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/red_block.usd"
+    },
+    {
+      "scene_ids": [
+        "O15"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/basic/yellow_block.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N03"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/avocado.usd"
+    },
+    {
+      "scene_ids": [
+        "O13",
+        "P05",
+        "P06"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/lemon2.usd"
+    },
+    {
+      "scene_ids": [
+        "O20",
+        "P07"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/lime.usd"
+    },
+    {
+      "scene_ids": [
+        "O11",
+        "O29",
+        "P03",
+        "P04"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/orange1.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N19"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/orange2.usd"
+    },
+    {
+      "scene_ids": [
+        "P08"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/fruits_veggies/pomegranate.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N15",
+        "ISH-N17",
+        "C10",
+        "P23",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/canned_mushrooms.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N20",
+        "C04",
+        "O12",
+        "O30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/canned_peaches.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N08",
+        "ISH-N17",
+        "O03"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/canned_tuna.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N14",
+        "ISH-N19",
+        "C01",
+        "C05",
+        "C08",
+        "C09",
+        "C10",
+        "P21",
+        "P23",
+        "P25",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/corn_can.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N03",
+        "ISH-N04",
+        "ISH-N06",
+        "ISH-N14",
+        "ISH-N15",
+        "C01",
+        "C04",
+        "C07",
+        "P21"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/cream_cheese.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N04",
+        "ISH-N15",
+        "ISH-N20",
+        "C02",
+        "C07",
+        "C09",
+        "O31",
+        "O32",
+        "P27",
+        "P30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/granola_bars.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N20",
+        "O08",
+        "O25"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/ketchup_bottle.usd"
+    },
+    {
+      "scene_ids": [
+        "O08",
+        "O25"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/mayonnaise_bottle.usd"
+    },
+    {
+      "scene_ids": [
+        "O05",
+        "O07",
+        "O19",
+        "O21",
+        "O24",
+        "O28",
+        "O29",
+        "O31",
+        "O32",
+        "P11",
+        "P12",
+        "P16"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/milk_carton.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N02",
+        "C04",
+        "O08",
+        "O25",
+        "O26"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/mustard_bottle.usd"
+    },
+    {
+      "scene_ids": [
+        "O06",
+        "O07",
+        "O21",
+        "O24",
+        "O28",
+        "O31",
+        "O32",
+        "P13",
+        "P14"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/orange_juice_carton.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N02",
+        "ISH-N09",
+        "C03",
+        "C06",
+        "C10",
+        "O25"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/parmesan_cheese_canister.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N03",
+        "C01",
+        "P24"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/peas_and_carrots.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N07",
+        "ISH-N19",
+        "O31",
+        "O32"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/popcorn_box.usd"
+    },
+    {
+      "scene_ids": [
+        "O04",
+        "O31",
+        "O32",
+        "P09",
+        "P10",
+        "P24",
+        "P28"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/raisin_box.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N05",
+        "C04"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/tomato_sauce_can.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N02",
+        "ISH-N05",
+        "ISH-N08",
+        "ISH-N10",
+        "ISH-N11",
+        "ISH-N14",
+        "ISH-N15",
+        "ISH-N19",
+        "C02",
+        "C06",
+        "C07",
+        "C09",
+        "O02",
+        "O22"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/yogurt_cup.usd"
+    },
+    {
+      "scene_ids": [
+        "O08",
+        "O25"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/bbq_sauce_bottle.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N13",
+        "O10",
+        "P17"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/ceramic_mug.usd"
+    },
+    {
+      "scene_ids": [
+        "O09",
+        "O15",
+        "O17",
+        "O20",
+        "O23",
+        "O26",
+        "O27",
+        "O29",
+        "O30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/coffee_pot.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N17"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/foam_roller.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N09",
+        "ISH-N13",
+        "ISH-N20",
+        "P18",
+        "P23"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/frozen_vegetable_block.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N10",
+        "P25"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/frozen_waffles.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N09",
+        "C03",
+        "C06",
+        "C10"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/remote_control.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N03",
+        "ISH-N06",
+        "ISH-N09",
+        "ISH-N13",
+        "ISH-N16",
+        "ISH-N18",
+        "C01",
+        "O01",
+        "O21",
+        "O31"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/rubiks_cube.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N02",
+        "ISH-N04",
+        "ISH-N12",
+        "ISH-N15",
+        "ISH-N18",
+        "ISH-N20",
+        "C05",
+        "C09",
+        "C10"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/smartphone.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N06",
+        "ISH-N18",
+        "C01",
+        "C06",
+        "O19",
+        "P22",
+        "P26",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/soup_can.usd"
+    },
+    {
+      "scene_ids": [
+        "P04"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/storage_box.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/wooden_bowl.usd"
+    },
+    {
+      "scene_ids": [
+        "O09",
+        "O25",
+        "P01",
+        "P02"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/objaverse/apple_01.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N04",
+        "ISH-N14"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a01/bin_a01.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N09",
+        "ISH-N18"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a02/bin_a02.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N11"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a03/bin_a03.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N08",
+        "ISH-N16",
+        "P14"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a04/bin_a04.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N13",
+        "ISH-N20",
+        "C01",
+        "C03",
+        "C05",
+        "C07",
+        "C09",
+        "P09",
+        "P11",
+        "P13",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_a05/bin_a05.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N07"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b01/bin_b01.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N12"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b02/bin_b02.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N10",
+        "ISH-N17",
+        "C02",
+        "C04",
+        "C06",
+        "C08",
+        "C10",
+        "P10",
+        "P12"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b03/bin_b03.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N15",
+        "ISH-N19"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/bin_b04/bin_b04.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N06"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd"
+    },
+    {
+      "scene_ids": [
+        "O04",
+        "O27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/closedheadpail_a01/closedheadpail_a01.usd"
+    },
+    {
+      "scene_ids": [
+        "O05",
+        "O06",
+        "O07",
+        "O08",
+        "O09",
+        "O10",
+        "O12",
+        "O14",
+        "O15",
+        "O17",
+        "O18",
+        "O19",
+        "O20",
+        "O21",
+        "O22",
+        "O23",
+        "O24",
+        "O25",
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O30",
+        "O31",
+        "O32",
+        "P02",
+        "P08"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/cubebox_a02/cubebox_a02.usd"
+    },
+    {
+      "scene_ids": [
+        "O12",
+        "O26",
+        "O30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/milkjug_a03/milkjug_a03.usd"
+    },
+    {
+      "scene_ids": [
+        "P15"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/naturalbostonroundbottle_a02/naturalbostonroundbottle_a02.usd"
+    },
+    {
+      "scene_ids": [
+        "O20"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd"
+    },
+    {
+      "scene_ids": [
+        "O02",
+        "O27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plasticjerrican_a03/plasticjerrican_a03.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01",
+        "ISH-N02",
+        "ISH-N03",
+        "ISH-N04",
+        "ISH-N05",
+        "ISH-N06",
+        "ISH-N07",
+        "ISH-N08",
+        "ISH-N09",
+        "ISH-N10",
+        "ISH-N11",
+        "ISH-N12",
+        "ISH-N13",
+        "ISH-N14",
+        "ISH-N15",
+        "ISH-N16",
+        "ISH-N17",
+        "ISH-N18",
+        "ISH-N19",
+        "ISH-N20",
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05",
+        "O06",
+        "O07",
+        "O08",
+        "O09",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O18",
+        "O19",
+        "O20",
+        "O21",
+        "O22",
+        "O23",
+        "O24",
+        "O25",
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O30",
+        "O31",
+        "O32",
+        "P01",
+        "P05"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_large/plate_large.usd"
+    },
+    {
+      "scene_ids": [
+        "P03"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/plate_small/plate_small.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N03"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/serving_bowl/serving_bowl.usd"
+    },
+    {
+      "scene_ids": [
+        "P06",
+        "P07",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/sm_rack_m01/sm_rack_m01.usd"
+    },
+    {
+      "scene_ids": [
+        "O03"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/squarepail_a02/squarepail_a02.usd"
+    },
+    {
+      "scene_ids": [
+        "O13",
+        "O19",
+        "O28",
+        "O30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a01/utilityjug_a01.usd"
+    },
+    {
+      "scene_ids": [
+        "O16",
+        "O28"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a02/utilityjug_a02.usd"
+    },
+    {
+      "scene_ids": [
+        "O01"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/utilityjug_a03/utilityjug_a03.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01",
+        "ISH-N05",
+        "ISH-N07",
+        "ISH-N11",
+        "ISH-N16",
+        "ISH-N18",
+        "P20"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N02",
+        "ISH-N05"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/bowl.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N16"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/chocolate_pudding.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N06",
+        "ISH-N10",
+        "ISH-N12",
+        "ISH-N16",
+        "ISH-N18",
+        "C03",
+        "C05",
+        "C09",
+        "O11",
+        "O23",
+        "O25"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/coffee_can.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01",
+        "ISH-N05",
+        "ISH-N07",
+        "ISH-N12",
+        "ISH-N13",
+        "ISH-N14",
+        "ISH-N17",
+        "C08"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/dry_erase_marker.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N04",
+        "ISH-N07",
+        "ISH-N12",
+        "C02",
+        "C04",
+        "C08",
+        "C10",
+        "O08",
+        "O28",
+        "P22",
+        "P25",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/jello.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N08",
+        "ISH-N16",
+        "C03",
+        "O05",
+        "O27",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/mug.usd"
+    },
+    {
+      "scene_ids": [
+        "O10",
+        "O17",
+        "O26",
+        "O27",
+        "O30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/pitcher.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N10",
+        "ISH-N13",
+        "ISH-N14",
+        "ISH-N19",
+        "C02",
+        "C03",
+        "C05",
+        "C08",
+        "O07",
+        "O24",
+        "P19"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/spam_can.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N17",
+        "C02",
+        "C07",
+        "O31",
+        "O32",
+        "P26",
+        "P29"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/sugar_box.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N08",
+        "O17"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/tomato_soup_can.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N12",
+        "O18",
+        "P22",
+        "P24",
+        "P26",
+        "P27"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/tuna_can.usd"
+    },
+    {
+      "scene_ids": [
+        "O11",
+        "O18",
+        "O22",
+        "O29"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/wood_block.usd"
+    },
+    {
+      "scene_ids": [
+        "ISH-N01",
+        "ISH-N02",
+        "ISH-N03",
+        "ISH-N04",
+        "ISH-N05",
+        "ISH-N06",
+        "ISH-N07",
+        "ISH-N08",
+        "ISH-N09",
+        "ISH-N10",
+        "ISH-N11",
+        "ISH-N12",
+        "ISH-N13",
+        "ISH-N14",
+        "ISH-N15",
+        "ISH-N16",
+        "ISH-N17",
+        "ISH-N18",
+        "ISH-N19",
+        "ISH-N20",
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "O01",
+        "O02",
+        "O03",
+        "O04",
+        "O05",
+        "O06",
+        "O07",
+        "O08",
+        "O09",
+        "O10",
+        "O11",
+        "O12",
+        "O13",
+        "O14",
+        "O15",
+        "O16",
+        "O17",
+        "O18",
+        "O19",
+        "O20",
+        "O21",
+        "O22",
+        "O23",
+        "O24",
+        "O25",
+        "O26",
+        "O27",
+        "O28",
+        "O29",
+        "O30",
+        "O31",
+        "O32",
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14",
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20",
+        "P21",
+        "P22",
+        "P23",
+        "P24",
+        "P25",
+        "P26",
+        "P27",
+        "P28",
+        "P29",
+        "P30"
+      ],
+      "source_family": "scene_assets",
+      "source_path": "scenes/safeline/risk/ets/safeline_ets_a01.usda"
+    }
+  ],
+  "license_files": [
+    {
+      "path": "licenses/third_party/RoboLab.txt",
+      "sha256": "d7dcc1c2365f327e1112dc0a4c5b133bc06dabc4554d5d5319a763bb64d78db4",
+      "source_family": "scene_assets",
+      "source_path": "../LICENSE"
+    },
+    {
+      "path": "licenses/third_party/YCB_ASSETS.txt",
+      "sha256": "46ddc25f12283209928f70e03fbb7d659db7408fba3275fe9526fffd60e7d5ed",
+      "source_family": "scene_assets",
+      "source_path": "objects/ycb/LICENSE"
+    },
+    {
+      "path": "licenses/third_party/HOT3D_ASSETS.txt",
+      "sha256": "850f8302492f3d321bbda7a2f17768e8ba9719390b86e4e699d5fcce40c14102",
+      "source_family": "scene_assets",
+      "source_path": "objects/hot3d/LICENSE"
+    },
+    {
+      "path": "licenses/third_party/HOPE_ASSETS.txt",
+      "sha256": "b96b17501ce48eeee9f5bd5fa67506bd2434e78b6711ccfb8be436ef4b8ae705",
+      "source_family": "scene_assets",
+      "source_path": "objects/hope/LICENSE"
+    },
+    {
+      "path": "licenses/third_party/HANDAL_ASSETS.txt",
+      "sha256": "3519242e437843c868a03091fa6360880e233fa6cdbe5267575340b9171c3a29",
+      "source_family": "scene_assets",
+      "source_path": "objects/handal/LICENSE"
+    }
+  ],
+  "redistribution_status": "requires_source_license_review",
+  "schema_version": 1,
+  "source_locations": {
+    "scene_assets": "User-supplied RoboLab assets directory",
+    "runtime_assets": "User-supplied robot and background assets directory"
+  },
+  "unresolved_dependencies": [
+    {
+      "owner": "data/objects/fixtures/Props/instaceable_meshes.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/RustedMetal.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Plastic_ABS.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Oak.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "http://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/Base/Wood/Bamboo.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "http://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/Base/Wood/Walnut_Planks.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Plastics/Plastic.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Plastics/Plastic_Clear.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Paint/Carpaint/Carpaint_Solid.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plastic/Plastic_Thick_Translucent.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/fixtures/table_oak.usd",
+      "reference": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Plastic/Plastic_Thick_Translucent_Flakes.mdl",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/objects/objects/basic/blue_block.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/basic/green_block.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/basic/red_block.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/basic/yellow_block.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/canned_mushrooms.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/canned_peaches.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/canned_tuna.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/corn_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/cream_cheese.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/granola_bars.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/ketchup_bottle.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/mayonnaise_bottle.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/milk_carton.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/mustard_bottle.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/orange_juice_carton.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/parmesan_cheese_canister.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/peas_and_carrots.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/popcorn_box.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/raisin_box.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/tomato_sauce_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hope/yogurt_cup.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/bbq_sauce_bottle.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/ceramic_mug.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/coffee_pot.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/foam_roller.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/frozen_vegetable_block.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/frozen_waffles.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/remote_control.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/rubiks_cube.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/smartphone.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/soup_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/storage_box.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/hot3d/wooden_bowl.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/objaverse/apple_01.usd",
+      "reference": "gltf/pbr.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_a01/bin_a01.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_a02/bin_a02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_a03/bin_a03.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_a04/bin_a04.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_a05/bin_a05.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_b01/bin_b01.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_b02/bin_b02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_b03/bin_b03.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/bin_b04/bin_b04.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/blackandbrassbowl_small/blackandbrassbowl_small.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/closedheadpail_a01/closedheadpail_a01.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/cubebox_a02/cubebox_a02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/milkjug_a03/milkjug_a03.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/naturalbostonroundbottle_a02/naturalbostonroundbottle_a02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/plasticjerrican_a03/plasticjerrican_a03.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/plate_large/plate_large.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/plate_small/plate_small.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/serving_bowl/serving_bowl.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/sm_rack_m01/sm_rack_m01.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/squarepail_a02/squarepail_a02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/utilityjug_a01/utilityjug_a01.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/utilityjug_a02/utilityjug_a02.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/utilityjug_a03/utilityjug_a03.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/banana.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/bowl.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/chocolate_pudding.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/coffee_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/dry_erase_marker.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/jello.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/mug.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/pitcher.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/spam_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/sugar_box.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/tomato_soup_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/tuna_can.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/objects/objects/ycb/wood_block.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/robots/franka_robotiq_2f_85_flattened.usd",
+      "reference": "OmniPBR.mdl",
+      "status": "simulator_material_search_path"
+    },
+    {
+      "owner": "data/robots/franka_robotiq_2f_85_flattened.usd",
+      "reference": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/Props/YCB/Axis_Aligned/Materials/Textures/011_banana_COLOR.png",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/robots/franka_robotiq_2f_85_flattened.usd",
+      "reference": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/Props/YCB/Axis_Aligned/Materials/Textures/024_bowl_COLOR.png",
+      "status": "external_renderer_resource"
+    },
+    {
+      "owner": "data/robots/franka_robotiq_2f_85_flattened.usd",
+      "reference": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Plastics/Rubber_Textured.mdl",
+      "status": "external_renderer_resource"
+    }
+  ]
+}

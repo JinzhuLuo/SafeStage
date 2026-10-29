@@ -1,0 +1,78 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "granola_bars" (
+        prepend references = @../../objects/objects/hope/granola_bars.usd@</granola_bars>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.2907089691463214, 0, 0, 0), (0, 1.7906014202145143e-16, 0.8769892693295187, 0), (0, -0.8064151888847167, 1.9473073583176486e-16, 0), (0.365, 0, 0.07350000400468708, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "cream_cheese" (
+        prepend references = @../../objects/objects/hope/cream_cheese.usd@</cream_cheese>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.8779921269758275e-16, 0, 0.990458616040893, 0), (0, 0.8688063840419664, 0, 0), (-0.8457724643253062, 0, 2.1992599209339337e-16, 0), (0.365, 0, 0.1590000040046871, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6700001043081284, 0.27999992549419406, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "jello" (
+        prepend references = @../../objects/objects/ycb/jello.usd@</jello>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.335, -0.29, 0.016060004126280558, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "smartphone" (
+        prepend references = @../../objects/objects/hot3d/smartphone.usd@</smartphone>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.33506893277168276, 0.29, 0.006650440976023701, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "bin_a01" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/bin_a01/bin_a01.usd@</bin_a01>
+    )
+    {
+        float physics:mass = 0.18
+        matrix4d xformOp:transform:stack_layout = ( (1.6681406485654868, 0, 0, 0), (0, 1.1727990596477418, 0, 0), (0, 0, 0.5767715592090451, 0), (0.6700000031071541, -0.2700000021845085, 0.0010000046922523447, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+}
+

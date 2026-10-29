@@ -1,0 +1,94 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "target" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/raisin_box.usd@</raisin_box>
+    )
+    {
+        float physics:mass = 0.17123201
+        bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (2.2343098502760045e-16, 0, 1.0062437009133243, 0), (0, 0.6986899800944772, 0, 0), (-0.9742205214730274, 0, 2.1632041080033635e-16, 0), (0.365, -0.245, 0.021000004004687087, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "bin" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/vomp/bin_a05/bin_a05.usd@</bin_a05>
+    )
+    {
+        float physics:mass = 0.35
+        custom bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.9754908156976932, 0, 0, 0), (0, 1.142625276494087, 0, 0), (0, 0, 0.38880469304776505, 0), (0.655, 0.18499999574338916, 0.001000004468178384, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "existing_1_mug" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/mug.usd@</mug>
+    )
+    {
+        float physics:mass = 0.102900006
+        bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:clutter_pose = ( (-0.7, 8.572527594031472e-17, 0, 0), (-8.572527594031472e-17, -0.7, 0, 0), (0, 0, 0.7, 0), (0.7436737183406454, 0.22500000035962972, 0.031625143628479735, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (0.7, 0, 0, 0), (0, 0.7, 0, 0), (0, 0, 0.7, 0), (0.7436737183406454, 0.22500000035962972, 0.031625143628479735, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+    }
+
+    def "existing_2_peas_and_carrots" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/hope/peas_and_carrots.usd@</peas_and_carrots>
+    )
+    {
+        float physics:mass = 0.19985786
+        bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.7786419581846126, 0, 0, 0), (0, 0.8343674468552368, 0, 0), (0, 0, 0.7690703862396986, 0), (0.7336737183406454, 0.12000000035962971, 0.025640742521645325, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "existing_3_tuna_can" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI"]
+        prepend references = @../../objects/objects/ycb/tuna_can.usd@</tuna_can>
+    )
+    {
+        float physics:mass = 0.054253653
+        bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:stack_layout = ( (0.6431996213630824, 0, 0, 0), (0, 0.6424183276598663, 0, 0), (0, 0, 0.6565008187945561, 0), (0.5836737183406455, 0.2600000003596297, 0.014140742521645325, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+}
+

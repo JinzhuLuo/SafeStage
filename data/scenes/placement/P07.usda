@@ -1,0 +1,44 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "lime01" (
+        prepend references = @../../objects/objects/fruits_veggies/lime.usd@
+    )
+    {
+        matrix4d xformOp:transform:placement_layout = ( (0.9936900372677385, 0.019794074059882982, 0.1104006510062173, 0), (-0.0003149385752324891, 0.984792940241846, -0.1737318736381172, 0), (-0.11216064338340144, 0.17260086250140455, 0.9785851674132737, 0), (0.3687798783489506, -0.2374310321533466, 0.0017369515087533136, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:placement_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "sm_rack_m01" (
+        prepend references = @../../objects/objects/vomp/sm_rack_m01/sm_rack_m01.usd@
+    )
+    {
+        matrix4d xformOp:transform:placement_layout = ( (0.15, 0, 0, 0), (0, 0.15, 0, 0), (0, 0, 0.1, 0), (0.6649999955296517, 0.205, 0.001000004004687082, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:placement_layout"]
+    }
+}
+

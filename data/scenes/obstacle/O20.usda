@@ -1,0 +1,68 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "lime01" (
+        prepend references = @../../objects/objects/fruits_veggies/lime.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.9936900369055606, 0.019794075196019063, 0.11040065734297044, 0), (-0.00031493859330924273, 0.9847929393689944, -0.17373188360994238, 0), (-0.11216064982117424, 0.1726008724083122, 0.9785851661841096, 0), (0.5837798785640698, -0.31743103244500753, 0.0017369515677439708, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "obstacle_01_plasticjerrican_a02" (
+        prepend references = @../../objects/objects/vomp/plasticjerrican_a02/plasticjerrican_a02.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (1.3322676295501878e-16, 0.6, 0, 0), (-0.6, 1.3322676295501878e-16, 0, 0), (0, 0, 0.6, 0), (0.5440196413993835, -0.0370903787612915, 0.0010000097272103371, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+
+    def "obstacle_02_cubebox_a02" (
+        prepend references = @../../objects/objects/vomp/cubebox_a02/cubebox_a02.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.69500984826684, 0.03245479273796083, 0.0010000040046871006, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+
+    def "obstacle_03_coffee_pot" (
+        prepend references = @../../objects/objects/hot3d/coffee_pot.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.6894221482574939, 0.032217438101768484, 0.1287163469783962, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@
+    )
+    {
+        matrix4d xformOp:transform:layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.5800001043081283, 0.31999992549419404, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:layout"]
+    }
+}
+

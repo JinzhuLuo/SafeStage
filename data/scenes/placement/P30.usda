@@ -1,0 +1,97 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def Xform "target" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysicsRigidBodyAPI"]
+    )
+    {
+        float physics:mass = 0.31023017
+        bool physics:rigidBodyEnabled = 1
+        bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:clutter_pose = ( (0, 1.6653345369377348e-16, 1.0000000000000002, 0), (-0.5, 0.8660254037844386, 0, 0), (-0.8660254037844388, -0.5000000000000001, 0, 0), (0.365, -0.245, 0.021000004004687094, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (2.2927597050183163e-16, 0, 1.0325671753170578, 0), (0, 0.42337413002114704, 0, 0), (-1.7741134155463765, 0, 3.9393231244719306e-16, 0), (0.365, -0.245, 0.021000004004687094, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+
+        def Xform "native_geometry" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"]
+            prepend references = @../../objects/objects/hope/granola_bars.usd@</granola_bars>
+        )
+        {
+            matrix4d xformOp:transform:clutter_pose = ( (1.0325671753170576, -1.4891911119893834e-16, -1.432974815636447e-16, 0), (0, 0.42337413002114704, -4.256009412634828e-17, 0), (3.9393231244719296e-16, 5.152704464158793e-17, 1.7741134155463758, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+        }
+    }
+
+    def Xform "support_left" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysicsRigidBodyAPI"]
+    )
+    {
+        float physics:mass = 0.35
+        bool physics:rigidBodyEnabled = 1
+        custom bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:clutter_pose = ( (0.8660254037844387, 0.4999999999999999, 0, 0), (-0.4999999999999999, 0.8660254037844387, 0, 0), (0, 0, 1, 0), (0.5554070785647895, 0.1275, 0.026000004004687084, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (1.063729761212006, 0, 0, 0), (0, 1.9147135701816107, 0, 0), (0, 0, 1.063729761212006, 0), (0.54, 0.185, 0.026000004004687084, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+
+        def Xform "native_geometry" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"]
+            prepend references = @../../objects/objects/basic/blue_block.usd@</blue_block>
+        )
+        {
+            matrix4d xformOp:transform:clutter_pose = ( (1.063729761212006, 3.996891720150463e-17, 0, 0), (-7.307383506605909e-17, 1.9147135701816107, 0, 0), (0, 0, 1.063729761212006, 0), (0, 0, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+        }
+    }
+
+    def Xform "support_right" (
+        prepend apiSchemas = ["PhysicsMassAPI", "PhysxRigidBodyAPI", "PhysicsRigidBodyAPI"]
+    )
+    {
+        float physics:mass = 0.35
+        bool physics:rigidBodyEnabled = 1
+        custom bool physxRigidBody:enableCCD = 1
+        custom int physxRigidBody:solverPositionIterationCount = 32
+        custom int physxRigidBody:solverVelocityIterationCount = 8
+        matrix4d xformOp:transform:clutter_pose = ( (0.8660254037844387, 0.4999999999999999, 0, 0), (-0.4999999999999999, 0.8660254037844387, 0, 0), (0, 0, 1, 0), (0.7545929214352105, 0.2425, 0.026000004004687084, 1) )
+        matrix4d xformOp:transform:stack_layout = ( (1.063729761212006, 0, 0, 0), (0, 1.9147135701816107, 0, 0), (0, 0, 1.063729761212006, 0), (0.77, 0.185, 0.026000004004687084, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+
+        def Xform "native_geometry" (
+            delete apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"]
+            prepend references = @../../objects/objects/basic/red_block.usd@</red_block>
+        )
+        {
+            matrix4d xformOp:transform:clutter_pose = ( (1.063729761212006, 3.996891720150463e-17, 0, 0), (-7.307383506605909e-17, 1.9147135701816107, 0, 0), (0, 0, 1.063729761212006, 0), (0, 2.7755575615628914e-17, 0, 1) )
+            uniform token[] xformOpOrder = ["xformOp:transform:clutter_pose"]
+        }
+    }
+}
+

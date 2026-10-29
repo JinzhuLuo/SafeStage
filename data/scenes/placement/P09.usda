@@ -1,0 +1,44 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "raisin_box" (
+        prepend references = @../../objects/objects/hope/raisin_box.usd@
+    )
+    {
+        matrix4d xformOp:transform:placement_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.365, -0.23, 0.06258770276233555, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:placement_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "bin_a05" (
+        prepend references = @../../objects/objects/vomp/bin_a05/bin_a05.usd@
+    )
+    {
+        matrix4d xformOp:transform:placement_layout = ( (0.8, 0, 0, 0), (0, 0.8, 0, 0), (0, 0, 0.8, 0), (0.665, 0.20499999701976773, 0.001000004958361377, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:placement_layout"]
+    }
+}
+

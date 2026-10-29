@@ -1,0 +1,86 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "rubiks_cube" (
+        prepend references = @../../objects/objects/hot3d/rubiks_cube.usd@</rubiks_cube>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.2009776512675328, 0, 0, 0), (0, 1.2116836270080773, 0, 0), (0, 0, 1.2076538301198558, 0), (0.3772016187152898, -0.035052496346019604, 0.03890318767837158, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "frozen_vegetable_block" (
+        prepend references = @../../objects/objects/hot3d/frozen_vegetable_block.usd@</frozen_vegetable_block>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1.1588501245622032, 0, 0, 0), (0, 1.1168560669424152, 0, 0), (0, 0, 1.127970321337368, 0), (0.3778375420957649, -0.000891983434750207, 0.07199453297868975, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "ceramic_mug" (
+        prepend references = @../../objects/objects/hot3d/ceramic_mug.usd@</ceramic_mug>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (0.72, 0, 0, 0), (0, 0.72, 0, 0), (0, 0, 0.72, 0), (0.3678007908165455, -0.008583867222070704, 0.0959868021719158, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6700001043081284, 0.27999992549419406, -0.001758136438205827, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+
+    def "dry_erase_marker" (
+        prepend references = @../../objects/objects/ycb/dry_erase_marker.usd@</dry_erase_marker>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.335, -0.29, 0.01043850474432112, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "spam_can" (
+        prepend references = @../../objects/objects/ycb/spam_can.usd@</spam_can>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.335, 0.29, 0.042818503569811595, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "bin_a05" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/bin_a05/bin_a05.usd@</bin_a05>
+    )
+    {
+        float physics:mass = 0.18
+        matrix4d xformOp:transform:stack_layout = ( (0.6888091111968729, 0, 0, 0), (0, 0.8983512078115443, 0, 0), (0, 0, 0.31795878041277237, 0), (0.67, -0.27000000334661906, 0.0010000043837234767, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+}
+

@@ -1,0 +1,20 @@
+include README.md LICENSE THIRD_PARTY_NOTICES.md
+include setup.py pyproject.toml
+recursive-include catalog *.json
+recursive-include prompts *.json
+recursive-include data/scenes *.usda *.md
+recursive-include data/tasks *.py
+recursive-include data/specs *.json
+recursive-include media *.jpg *.png
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include licenses *
+prune data/objects
+prune data/robots
+prune data/backgrounds
+prune artifacts
+prune .git
+global-exclude __pycache__ *.py[cod]
+

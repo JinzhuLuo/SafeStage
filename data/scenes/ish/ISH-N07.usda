@@ -1,0 +1,83 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "jello" (
+        prepend references = @../../objects/objects/ycb/jello.usd@</jello>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (0.9288791189146093, 0, 0, 0), (0, 2.8013595348691177e-16, 1.0384832410015166, 0), (0, -1.2616201757367345, 2.305896009694478e-16, 0), (0.365, 0, 0.05350000400468709, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.8950797977004854, 0.03135099510876254, -0.24630403680807098, 0), (0.27640794044606687, -0.03090090070437014, 1.0005452902288154, 0), (0.031071499732677258, -1.2603422074760213, -0.047508220195000395, 0), (0.3776007294654846, -0.0009644874953664839, 0.048899777233600616, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "dry_erase_marker" (
+        prepend references = @../../objects/objects/ycb/dry_erase_marker.usd@</dry_erase_marker>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (2.220446049250313e-16, 1, 0, 0), (-1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.365, 0, 0.11643850474432113, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (-0.1651067675156226, 0.9825440573586758, -0.08571287729852406, 0), (-0.9862073380839905, -0.16549302958659906, 0.0026286984005250424, 0), (-0.01160208149128339, 0.0849646932269068, 0.9963164115240791, 0), (0.3891802430152893, -0.00025897944578900933, 0.10327772051095963, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "plate_large" (
+        prepend references = @../../objects/objects/vomp/plate_large/plate_large.usd@</plate_large>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6700001043081284, 0.27999992549419406, -0.001758136438205827, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.9999999986267075, 0.000034104860735535395, 0.00003979251345803987, 0), (-0.00003410266617510714, 0.9999999978977725, -0.000055149471614179414, 0), (-0.00003979439423898486, 0.00005514811450796585, 0.9999999976875463, 0), (0.669998824596405, 0.2800002992153168, 0.0002389233559370041, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "whitepackerbottle_a01" (
+        prepend references = @../../objects/objects/vomp/whitepackerbottle_a01/whitepackerbottle_a01.usd@</whitepackerbottle_a01>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.33564487475901844, -0.2900000027939677, 0.0010000034086406475, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.9999989939733941, 0.000042019335321952895, -0.001417845764105626, 0), (-0.000040659626130392886, 0.9999995393215207, 0.0009590117608494187, 0), (0.0014178854079706519, -0.0009589531469804285, 0.9999985350038687, 0), (0.3356441855430603, -0.2899991273880005, 0.0029708705842494965, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "popcorn_box" (
+        prepend references = @../../objects/objects/hope/popcorn_box.usd@</popcorn_box>
+    )
+    {
+        matrix4d xformOp:transform:stack_layout = ( (2.220446049250313e-16, 0, 1, 0), (0, 1, 0, 0), (-1, 0, 2.220446049250313e-16, 0), (0.335, 0.29, 0.020126203190535312, 1) )
+        matrix4d xformOp:transform:settled_pose = ( (0.005867032628231739, -0.0013857176009549055, 0.9999816084847196, 0), (0.000008232619847226008, 0.9999990398926863, 0.0013856931493475, 0), (-0.9999825685746629, 1.028684751269715e-7, 0.0058670384035510725, 0), (0.335106760263443, 0.28997623920440674, 0.02120017819106579, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:settled_pose"]
+    }
+
+    def "bin_b01" (
+        prepend apiSchemas = ["PhysicsMassAPI"]
+        prepend references = @../../objects/objects/vomp/bin_b01/bin_b01.usd@</bin_b01>
+    )
+    {
+        float physics:mass = 0.18
+        matrix4d xformOp:transform:stack_layout = ( (1.856712167431262, 0, 0, 0), (0, 1.3181380914406828, 0, 0), (0, 0, 0.8624514160328633, 0), (0.6699999965416041, -0.26999999508955297, 0.001000004004687082, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:stack_layout"]
+    }
+}
+

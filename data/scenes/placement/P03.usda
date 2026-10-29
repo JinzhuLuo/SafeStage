@@ -1,0 +1,44 @@
+#usda 1.0
+(
+    defaultPrim = "world"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "world"
+{
+    def "table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/table>
+    )
+    {
+    }
+
+    def "franka_table" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/franka_table>
+    )
+    {
+    }
+
+    def "GroundPlane" (
+        prepend references = @../../objects/scenes/safeline/risk/ets/safeline_ets_a01.usda@</world/GroundPlane>
+    )
+    {
+    }
+
+    def "orange_01" (
+        prepend references = @../../objects/objects/fruits_veggies/orange1.usd@
+    )
+    {
+        matrix4d xformOp:transform:placement_layout = ( (0.9536389771883346, 0.09698465388046196, 0.2848976393143469, 0), (0.04867098492706379, 0.8844897984918422, -0.46401389922279046, 0), (-0.29699128472302055, 0.4563679878753498, 0.8387636082305615, 0), (0.3756405169695968, -0.24697811399687256, 0.00570623070180953, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:placement_layout", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+
+    def "plate_small" (
+        prepend references = @../../objects/objects/vomp/plate_small/plate_small.usd@
+    )
+    {
+        matrix4d xformOp:transform:placement_layout = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.6650262260437012, 0.20499989569187163, 0.0009051658625831007, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform:placement_layout"]
+    }
+}
+
